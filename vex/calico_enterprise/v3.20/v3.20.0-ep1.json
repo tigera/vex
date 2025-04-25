@@ -1,0 +1,126 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-251c9dbe83c9e67ce873ff164fa24a6bec5f5f7e323b9d3eae95f6303925fa7c",
+  "author": "Unknown Author",
+  "timestamp": "2024-08-02T15:56:36.575069879-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-26290"
+      },
+      "timestamp": "2024-08-02T15:55:45.361959124-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A5acf8784111a32fac40750559c5fd4277fd89f8837adeede069a75e8fdc54c0c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27847"
+      },
+      "timestamp": "2024-08-02T15:55:46.965091714-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A5acf8784111a32fac40750559c5fd4277fd89f8837adeede069a75e8fdc54c0c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-08-02T15:56:35.258723785-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad4789169ae37463e80387aa74717872b6522a32e11aeafee872b566f04a57e07"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-08-02T15:56:36.560313117-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad4789169ae37463e80387aa74717872b6522a32e11aeafee872b566f04a57e07"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-39222"
+      },
+      "timestamp": "2024-08-02T15:55:52.260128035-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A5acf8784111a32fac40750559c5fd4277fd89f8837adeede069a75e8fdc54c0c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-08-02T15:56:32.164722729-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad4789169ae37463e80387aa74717872b6522a32e11aeafee872b566f04a57e07"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-08-02T15:56:30.987064389-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad4789169ae37463e80387aa74717872b6522a32e11aeafee872b566f04a57e07"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656"
+      },
+      "timestamp": "2024-08-02T15:55:44.571577923-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A5acf8784111a32fac40750559c5fd4277fd89f8837adeede069a75e8fdc54c0c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-08-02T15:55:33.97165341-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A8ff9af76dcf5e502c49042cb08d5fff19739cd4a09569af8522392ed814885ad"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}

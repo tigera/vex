@@ -1,0 +1,126 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-b77e5e803428ac1d66b8ea1f0c1946cee5aed859ac09318e47771fefcd4347c0",
+  "author": "Tigera security team",
+  "timestamp": "2024-01-30T00:02:14.278152845-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-01-30T00:01:01.759143792-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3Ae3389785d4014573e81b44a98191fb95da10e929aa470a00583665370322d561"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-01-30T00:01:34.81940046-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-manager@sha256%3A2b91f96ed3fd59351e9f42aad3b113147df7b207adb8ab9912f14b05c6933d84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-01-30T00:01:43.731582788-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/es-curator@sha256%3A36bc1a267861d3ea174c95cb01dee30bc36c4264c61db6e2761c791992b85e49"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-01-30T00:02:13.081434629-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4ea651a17558cc24174340c254ef9dabe8bd0a02105e1d8f15a370d0f0cedd92"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-01-30T00:02:14.257943406-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4ea651a17558cc24174340c254ef9dabe8bd0a02105e1d8f15a370d0f0cedd92"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-01-30T00:02:12.210412361-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4ea651a17558cc24174340c254ef9dabe8bd0a02105e1d8f15a370d0f0cedd92"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2253"
+      },
+      "timestamp": "2024-01-30T00:01:20.619877289-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A6826de57ccf5ac4c319ebab5ebbaceb4d4f37175c03c09a95a499953cc8bb41e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-01-30T00:02:10.478089031-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4ea651a17558cc24174340c254ef9dabe8bd0a02105e1d8f15a370d0f0cedd92"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-44487"
+      },
+      "timestamp": "2024-01-30T00:01:03.354183157-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3Ae3389785d4014573e81b44a98191fb95da10e929aa470a00583665370322d561"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Nginx reported that the default configuration used in this component is not vulnerable."
+    }
+  ]
+}

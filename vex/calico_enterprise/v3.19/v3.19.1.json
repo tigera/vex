@@ -1,0 +1,113 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-90ae626a64be57566ef3f4e4b322fd9ed790d23c11f327fe475e4465940eaa87",
+  "author": "Tigera security team",
+  "timestamp": "2024-06-20T00:02:07.238199543-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-26290"
+      },
+      "timestamp": "2024-06-20T00:01:17.789317536-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A7e5856116e2b373064372cbe226babfb88661f8574896719da24838c24f57e68"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27847"
+      },
+      "timestamp": "2024-06-20T00:01:19.685832738-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A7e5856116e2b373064372cbe226babfb88661f8574896719da24838c24f57e68"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-06-20T00:02:03.25382399-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad0415e47d68f6a1355a79eb433d8b7370f5929219ccd458be700556e16eae023"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-06-20T00:02:07.224344349-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad0415e47d68f6a1355a79eb433d8b7370f5929219ccd458be700556e16eae023"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-39222"
+      },
+      "timestamp": "2024-06-20T00:01:20.711526386-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A7e5856116e2b373064372cbe226babfb88661f8574896719da24838c24f57e68"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-06-20T00:02:00.946670686-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad0415e47d68f6a1355a79eb433d8b7370f5929219ccd458be700556e16eae023"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-06-20T00:01:57.76854436-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad0415e47d68f6a1355a79eb433d8b7370f5929219ccd458be700556e16eae023"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-06-20T00:01:11.525726147-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Acf0f59533ef5993e8ff1d7a315cd2a90a4694bb7999da105df999b89c8b4651c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}

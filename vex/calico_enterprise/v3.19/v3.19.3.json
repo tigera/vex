@@ -1,0 +1,139 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-7626fc6f5d3b58abed3d3f1a3f4b7cd2fbf75df0b328a7b789ddccbe85324cde",
+  "author": "Tigera security team",
+  "timestamp": "2024-10-23T00:00:03.941750408-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-26290"
+      },
+      "timestamp": "2024-10-23T00:00:56.834174287-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A94bcf67e0ed0c31389684936f40970e5285489249c3d9ba01de465a8d24eb231"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27847"
+      },
+      "timestamp": "2024-10-23T00:00:57.892900752-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A94bcf67e0ed0c31389684936f40970e5285489249c3d9ba01de465a8d24eb231"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-10-23T00:00:53.783273561-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A79d25fed61cdbe4f4c3207741220a6e4cf20b91d33628c5ed72d9695fe221496"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-39222"
+      },
+      "timestamp": "2024-10-23T00:00:59.650710805-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A94bcf67e0ed0c31389684936f40970e5285489249c3d9ba01de465a8d24eb231"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-10-23T00:00:53.052295672-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A79d25fed61cdbe4f4c3207741220a6e4cf20b91d33628c5ed72d9695fe221496"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-10-23T00:00:50.798099465-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A79d25fed61cdbe4f4c3207741220a6e4cf20b91d33628c5ed72d9695fe221496"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-52428"
+      },
+      "timestamp": "2024-10-23T00:00:51.627973893-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A79d25fed61cdbe4f4c3207741220a6e4cf20b91d33628c5ed72d9695fe221496"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The OIDC plugin is not used by default. This will be patched when a fix is available for ElasticSearch version 7.17."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656"
+      },
+      "timestamp": "2024-10-23T00:00:55.974850596-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A94bcf67e0ed0c31389684936f40970e5285489249c3d9ba01de465a8d24eb231"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-10-23T00:00:49.536483264-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Aaf37bedc0dab47b7c20816a587b86353aaf73d1500c0a6f85560af70e40fe2a2"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-34156"
+      },
+      "timestamp": "2024-10-23T00:00:03.92663464-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Ad0827790f6f677e1f931128c23065a4b669b82ee457661ad5055c9e18f7cc6d4"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    }
+  ]
+}

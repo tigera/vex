@@ -1,0 +1,35 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-56fef254c5cd1eb88529fe816291b493627f9c4606c62ffe92eec63a1ece09d8",
+  "author": "Tigera security team",
+  "timestamp": "2024-05-13T00:00:00.706421881-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2961"
+      },
+      "timestamp": "2024-05-13T00:00:00.334257798-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A385bf6391fea031649b8575799248762a2caece86e6e3f33ffee19c0c096e6a8"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable module is not loaded or used. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33599"
+      },
+      "timestamp": "2024-05-13T00:00:00.691201905-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A385bf6391fea031649b8575799248762a2caece86e6e3f33ffee19c0c096e6a8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release. Will be fixed in the next release. "
+    }
+  ]
+}

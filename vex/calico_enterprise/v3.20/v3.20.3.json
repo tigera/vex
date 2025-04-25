@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-23b99d9ca456d8cbf7663669ad5e822c81dc9f2462eb47b20ea4b32c92d0d59d",
+  "author": "Tigera security team",
+  "timestamp": "2025-04-04T16:22:58.320861397-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:58.305370716-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A30c30a6d86e84e80c45010b33988bf554de87e66d3ca6258c62cf1e65eb793de"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:56.791538226-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A30c30a6d86e84e80c45010b33988bf554de87e66d3ca6258c62cf1e65eb793de"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-12905",
+        "aliases": [
+          "GHSA-pq67-2wwv-3xjx"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:37.719211199-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b14640d974b57e06f8425548e533829354a046821623b52be8d9f837e8a3df3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release and will be fixed in once the the fix is available in upstream."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656",
+        "aliases": [
+          "GHSA-gr79-9v6v-gc9r"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:14.726984933-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A46486ff824e87c78fbbaf0085c02091d22d5e7234582ec5d14990d7f3d18adbb"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415",
+        "aliases": [
+          "GHSA-2p57-rm9w-gvfp"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:36.988985345-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b14640d974b57e06f8425548e533829354a046821623b52be8d9f837e8a3df3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:10.915648047-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A282cd8819a1956d93a78714af8d202928acc1f0917783149bace1b9fae47621a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27152",
+        "aliases": [
+          "GHSA-jr5f-v2jv-69x6"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:36.131040676-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b14640d974b57e06f8425548e533829354a046821623b52be8d9f837e8a3df3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release and will be fixed in once the the fix is available in upstream."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-30204",
+        "aliases": [
+          "GHSA-mh63-6h87-95cp"
+        ]
+      },
+      "timestamp": "2025-04-04T16:22:42.959138998-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A7ad343f1dbdd014396df43a48dbc8535f5ed4e80972700b2a81e918e1f3f5683"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release and will be fixed in once the the fix is available in upstream."
+    }
+  ]
+}

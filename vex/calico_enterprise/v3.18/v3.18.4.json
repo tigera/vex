@@ -1,0 +1,87 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-95b59f37e0e8ef337d9bbc69907b7e387a53f98bedd4d7743770169be54d1bfc",
+  "author": "Tigera security team",
+  "timestamp": "2024-06-13T00:19:28.440818039-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-06-13T00:18:14.989820237-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A78a7f9121df8ec3a50184d99a479dba4803f818d1a47f4c14064db8a8cd81424"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-06-13T00:18:17.148096538-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A78a7f9121df8ec3a50184d99a479dba4803f818d1a47f4c14064db8a8cd81424"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-06-13T00:18:12.140362035-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A78a7f9121df8ec3a50184d99a479dba4803f818d1a47f4c14064db8a8cd81424"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2253"
+      },
+      "timestamp": "2024-06-13T00:18:29.309250322-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abcbf861f6566eb15979ab66096dd185b5c2e41ff881903b673401a249ed7cceb"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-06-13T00:18:07.285602084-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A78a7f9121df8ec3a50184d99a479dba4803f818d1a47f4c14064db8a8cd81424"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-06-13T00:19:28.421853299-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Adf40172e463657c88457ce140bb0737fafe88ceb3814ffdce0e4adee1458b1a2"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}

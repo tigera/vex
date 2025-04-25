@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-5e4b7ecc0b9454c327bb50fab0fcd8226bce5bd52eb7af2ca32c73bd377f12f1",
+  "author": "Tigera security team",
+  "timestamp": "2025-02-28T15:01:35.213199532-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:20.903265709-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This CVE is not exploitable in ElasticSearch since it does not use Java serialization in conjunction with Guava."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:32.124704075-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:27.064342468-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656",
+        "aliases": [
+          "GHSA-gr79-9v6v-gc9r"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:36.690289519-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Aff59e2b609e832efa5247dce4d2d90550dba12344c8c7b6bfc35af0d8a351072"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415",
+        "aliases": [
+          "GHSA-2p57-rm9w-gvfp"
+        ]
+      },
+      "timestamp": "2025-02-28T15:01:35.198291658-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A6ec4ceec608d6330d08151b6c87ad6ded5d4cd11ea52c50a27016ca7479b85fe"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "GHSA-8xfc-gm6g-vgpv"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:29.056720359-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This library is only used for FIPS mode which is not supported in Calico Enterprise."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-02-28T15:00:46.527339949-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A915ccf491bccf029f0927a9d244b24877f796bf9e7586f57327de9481def0019"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27113",
+        "aliases": [
+          "GHSA-m9m6-wcr9-hh75"
+        ]
+      },
+      "timestamp": "2025-02-28T15:01:01.188626936-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3Ac26bdb24a1171dbdfd9780b31a44f64c37031e16aa56543944358244b0a67a25"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}
