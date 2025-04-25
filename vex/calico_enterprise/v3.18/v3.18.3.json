@@ -1,0 +1,113 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-273f6ca4e4595f2dabc3d91d9a73ec06de59e2da897431e8c36d9e5bbfd468a2",
+  "author": "Tigera security team",
+  "timestamp": "2024-04-26T00:34:42.526057572-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-04-26T00:34:32.624740098-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3Acb776b74707240216de6880215f52bfa5bd81a1166d53fb392126730889e933c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-04-26T00:34:39.337641681-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A61662fd1a42d7207afc267960e97afb6ad1565868acb5d55bcf1fdce4ff82665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-04-26T00:34:41.10163992-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A61662fd1a42d7207afc267960e97afb6ad1565868acb5d55bcf1fdce4ff82665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-04-26T00:34:37.846210659-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A61662fd1a42d7207afc267960e97afb6ad1565868acb5d55bcf1fdce4ff82665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2253"
+      },
+      "timestamp": "2024-04-26T00:34:42.509404569-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Aacb5e80ef63739a9a573e9cf8e38c9609f5734431092c72fd8c61735a02a4623"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-04-26T00:34:36.559013545-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A61662fd1a42d7207afc267960e97afb6ad1565868acb5d55bcf1fdce4ff82665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-44487"
+      },
+      "timestamp": "2024-04-26T00:34:34.474921759-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3Acb776b74707240216de6880215f52bfa5bd81a1166d53fb392126730889e933c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Nginx reported that the default configuration used in this component is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-2961"
+      },
+      "timestamp": "2024-04-26T00:34:23.29718376-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A9032fc05489e68caf465dfd582e059efa9a964da8a971c523d32e30f24cd6b9b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable module is not loaded or used. "
+    }
+  ]
+}

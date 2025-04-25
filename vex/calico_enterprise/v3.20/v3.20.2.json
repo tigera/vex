@@ -1,0 +1,87 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-9fbe9c0968c701064f3ec40e0fa0f530f925c5688c36c4cf991b5e7cc4410eca",
+  "author": "Tigera security team",
+  "timestamp": "2025-03-25T16:05:31.128782116-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2025-03-25T16:05:21.338672149-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A1b7d5d47433472ad3fa30163acdb55fd675b6cc5d41b6e25d099ed6e35fabd53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2025-03-25T16:05:18.712997849-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A1b7d5d47433472ad3fa30163acdb55fd675b6cc5d41b6e25d099ed6e35fabd53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656"
+      },
+      "timestamp": "2025-03-25T16:04:59.09245085-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A0624a50b8dab61f136797abbb980a82a468c050df3295386f8112c1ea93dd194"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2025-03-25T16:04:56.572455116-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A4a84d3fc07179c2f90ce55bd2de0566c5386648840cdffea6d41fa06a2e0b28f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338"
+      },
+      "timestamp": "2025-03-25T16:05:31.114491723-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A6f776c1c8cb28a32a86094e6831b679785e9a9816c7168bbea856d8e04fc070a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27152"
+      },
+      "timestamp": "2025-03-25T16:04:51.031081698-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A4a84d3fc07179c2f90ce55bd2de0566c5386648840cdffea6d41fa06a2e0b28f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release and will be fixed in once the the fix is available in upstream."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-4e4093b2201af12c4cb7ff38a0ba0b8673bb66ac0f45d5314c20e22389a2f541",
+  "author": "Tigera security team",
+  "timestamp": "2024-03-25T00:23:53.126211336-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-03-25T00:23:35.842074144-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-manager@sha256%3A1e01d117a2d445048408b419c9e50cf28b381b0390a94729bbad1a940905b573"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0190"
+      },
+      "timestamp": "2024-03-25T00:23:49.633159905-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3A53a6ed80b22db71bfec5e52c8458bc59b9267c0084ff225896b65ff517eb6d5f"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive.  Apache HTTP Server is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-03-25T00:23:14.628125294-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ae663f048a082cb37787751143822d8d54623c17f9f9f76e91aafc9397dd54342"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-03-25T00:23:15.894657086-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ae663f048a082cb37787751143822d8d54623c17f9f9f76e91aafc9397dd54342"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-03-25T00:23:09.369299732-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ae663f048a082cb37787751143822d8d54623c17f9f9f76e91aafc9397dd54342"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2253"
+      },
+      "timestamp": "2024-03-25T00:22:16.523349426-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A299c211f4cd60ebd9b08ff0b92a24925d527f6b4edc55e43c6b13109cf1ff9d8"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-03-25T00:23:02.860088792-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ae663f048a082cb37787751143822d8d54623c17f9f9f76e91aafc9397dd54342"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-44487"
+      },
+      "timestamp": "2024-03-25T00:23:53.110826432-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3A53a6ed80b22db71bfec5e52c8458bc59b9267c0084ff225896b65ff517eb6d5f"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Nginx reported that the default configuration used in this component is not vulnerable."
+    }
+  ]
+}
