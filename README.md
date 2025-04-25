@@ -66,5 +66,5 @@ Each report includes a signature for the VEX document, which is digitally signed
     cosign verify-blob --key [path-to-Tigera-VEX-public-key] --signature [path-to-signature] [path-to-VEX-document] 
     ```
 
-> Note: You can find the Tigera public key, VEX documents, and their corresponding signatures in this repository.
+> Note: You can find the Tigera public key, VEX documents, and their corresponding signatures in this repository. 
 
