@@ -1,0 +1,121 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-b94760c9cb62209e862e73a9232644fcb385e9e8ae27617992d72397bbef1c17",
+  "author": "Tigera security team",
+  "timestamp": "2025-04-25T11:01:59.114545492-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:53.985659221-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This CVE is not exploitable in ElasticSearch since it does not use Java serialization in conjunction with Guava."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:29.469472996-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A84271acb607ced3363f32cb7a706a5389fd2e973313b18ba50b7d82bea3696db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:25.843559202-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A84271acb607ced3363f32cb7a706a5389fd2e973313b18ba50b7d82bea3696db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-12905",
+        "aliases": [
+          "GHSA-pq67-2wwv-3xjx"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:13.121517635-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Aeaa5f5e0d293e9d7759c10cc0e1adc894c07b4ba55c00717858049369439575c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and will be fixed in when the the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "GHSA-8xfc-gm6g-vgpv"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:59.100039911-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7fc881e53589a873e3edb0656c8e81612a3e704aefed67b2aefd98a52322b4a6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This library is only used for FIPS mode which is not supported in Calico Enterprise."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-25T11:00:27.88296715-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Af139eafa4bfaa421277e68add6450c111470c7528ca7135873a8df8c3bca9917"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27152",
+        "aliases": [
+          "GHSA-jr5f-v2jv-69x6"
+        ]
+      },
+      "timestamp": "2025-04-25T11:01:06.757878228-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Aeaa5f5e0d293e9d7759c10cc0e1adc894c07b4ba55c00717858049369439575c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and will be fixed in when the the fix is available."
+    }
+  ]
+}

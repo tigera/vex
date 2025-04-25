@@ -1,0 +1,22 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-a54acc5410bdbd27c6e78ee7f7b2b5a62a6f06708f67b443609cdef90027a885",
+  "author": "Tigera security team",
+  "timestamp": "2025-02-21T09:57:01.510174003-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338"
+      },
+      "timestamp": "2025-02-21T09:57:01.491275859-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node-driver-registrar@sha256%3Adcf024276c9e5cd42ebc14f5a31caaf23bec7d95f403a46954148dcef418d7be"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not Vulnerable. The vulnerable function is not used."
+    }
+  ]
+}
