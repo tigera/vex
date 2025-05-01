@@ -1,7 +1,7 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
   "@id": "merged-vex-c5c461e36f9d5a898826f0c5f0a12f973a367ca49d27f4a8633ff2409586f44d",
-  "author": "Unknown Author",
+  "author": "Tigera security team",
   "timestamp": "2024-09-03T00:00:22.530196415-04:00",
   "version": 1,
   "statements": [
