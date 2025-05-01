@@ -1,0 +1,87 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-90f2a84280cc198c7fc8aa967768d9de311a6eb611220ade0cf274b30c587e71",
+  "author": "Tigera security team",
+  "timestamp": "2024-08-20T10:09:41.153960391-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2021-40690"
+      },
+      "timestamp": "2024-08-20T10:09:40.390367354-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4fde70b3cc7750deaa0082221814b71880af5a375bfb55294b25b4d3e65dca53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch uses a very strict Java Security Manager policy which prevents this exploit from extracting any local XML files. Attackers cannot exploit this vulnerability in Elasticsearch. XML-sec will be upgraded in a future version of Elasticsearch."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-08-20T10:09:19.457226065-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4fde70b3cc7750deaa0082221814b71880af5a375bfb55294b25b4d3e65dca53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370"
+      },
+      "timestamp": "2024-08-20T10:09:38.721317049-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4fde70b3cc7750deaa0082221814b71880af5a375bfb55294b25b4d3e65dca53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function (JSONParser) affects x-pack OIDC in elasticsearch and is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-08-20T10:09:41.139930757-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A4fde70b3cc7750deaa0082221814b71880af5a375bfb55294b25b4d3e65dca53"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-08-20T10:09:37.759187242-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Aec5f4a6fa8fad368f439d412a500bee7329b539474438734c9a3066a31de3d66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-39338"
+      },
+      "timestamp": "2024-08-20T10:09:34.438191911-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Aec5f4a6fa8fad368f439d412a500bee7329b539474438734c9a3066a31de3d66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable package is only used in the Slack third-party webhook functionality in Kibana which is not supported or used by default. "
+    }
+  ]
+}

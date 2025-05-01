@@ -1,0 +1,233 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-35db2af06ab0d36dc6ce1f281fcb27849998b9cbd6105e291ead2cb6a4aaa33e",
+  "author": "Tigera security team",
+  "timestamp": "2024-12-17T16:14:25.595535509-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-26290",
+        "aliases": [
+          "GHSA-m9hp-7r99-94h5"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:20.155780036-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Aa1533a35b43b3ca9ed99763129a68c524a27b03e358b77567be9afd26b789a32"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27847",
+        "aliases": [
+          "GHSA-2x32-jm95-2cpx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:20.912978556-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Aa1533a35b43b3ca9ed99763129a68c524a27b03e358b77567be9afd26b789a32"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:43.383570728-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A6d5574f2e718c023cad02a9dc05a10ec3f9ecbf63fd2109d8eaf3956ae4e4df1"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-39222",
+        "aliases": [
+          "GHSA-vh7g-p26c-j2cw"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:22.100018883-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Aa1533a35b43b3ca9ed99763129a68c524a27b03e358b77567be9afd26b789a32"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:42.634429907-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A6d5574f2e718c023cad02a9dc05a10ec3f9ecbf63fd2109d8eaf3956ae4e4df1"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:17.224452525-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-apiserver@sha256%3A043b11d06b8f94e614f86f2bd2ec1ba2407c661fc77a6dd58cf3b580b2f819ed"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:24.277722454-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3Af6c3beb00452f81b7ed8afad2cf3b885ce4c96c8a0352aefeb002b57f2608cb3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:26.39331485-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/es-proxy@sha256%3Aae469190b7b23c34c5757117e83108359776ba64b94c25b9d0df5a5296d796d6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:30.629568795-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3Ac8131586dfc8bc4acaff899a9557b985f7c719a2de5edf862f1905c4326107aa"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:02.159866097-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-queryserver@sha256%3A0a72d766969b9eb3537884442c98d119c6d1562596ce42e83376bc1a07362bfc"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:08.943495097-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A5e58466c934926f00c159a955ed20b7c594bfc8bdf2a9c622395c7b6025eb973"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:25.582047312-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A972913fb780fb514f4d3922c690371ce5e9f3d93ed916176cfa997df8df31d17"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The v3.18 release Calico Enterprise uses libraries from Kubernetes version v1.27.16 which is end-of-life and is not receiving security updates. There may be unfixed security issues in these Kubernetes libraries. Please consider upgrading to a newer version of Calico Enterprise to receive the latest security fixes and mitigations."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656",
+        "aliases": [
+          "GHSA-gr79-9v6v-gc9r"
+        ]
+      },
+      "timestamp": "2024-12-17T16:14:13.245554044-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Aa1533a35b43b3ca9ed99763129a68c524a27b03e358b77567be9afd26b789a32"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415",
+        "aliases": [
+          "GHSA-2p57-rm9w-gvfp"
+        ]
+      },
+      "timestamp": "2024-12-17T16:13:57.112806648-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A524f2ad7639b768d664d05c6f6c1940384dd580d1e9c436f0dec52ea29ee88ae"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}

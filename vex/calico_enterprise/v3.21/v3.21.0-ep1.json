@@ -1,0 +1,57 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-f1beca12a75eef3f36f10e11170492fca0ce8b7d22b7a9ecc6f71e249fb5c371",
+  "author": "Tigera security team",
+  "timestamp": "2025-02-13T10:23:47.82354175-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415",
+        "aliases": [
+          "GHSA-2p57-rm9w-gvfp"
+        ]
+      },
+      "timestamp": "2025-02-13T10:22:34.336159196-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A4879979c940a131d0d1911553fa6e66da1d0a753170eb999e650f42fcba8620f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-02-13T10:21:49.132902576-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Aebc280ddb66f8c2169629d854bd42578a8dc26912bf2e36f24676ac1de815e01"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-57699",
+        "aliases": [
+          "GHSA-pq2g-wx69-c263"
+        ]
+      },
+      "timestamp": "2025-02-13T10:23:47.807791519-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Aa9abdda7c4d3fcfb6cb5a72bd86d1fcd3e523f097137e8ba264a0aaa1fa07a59"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}

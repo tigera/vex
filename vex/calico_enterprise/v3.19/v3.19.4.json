@@ -1,0 +1,100 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-aa2d4f9e7d12a80f72b9041fd9b939984d4f283989cd513c401ff5e9f12ec3ac",
+  "author": "Tigera security team",
+  "timestamp": "2024-11-08T14:34:59.597019888-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-26290"
+      },
+      "timestamp": "2024-11-08T14:33:48.602292006-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A4e85e3288864eb0363b256c01119d0f05ee6d0b198644b082e076e727250df7e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-27847"
+      },
+      "timestamp": "2024-11-08T14:33:50.297206307-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A4e85e3288864eb0363b256c01119d0f05ee6d0b198644b082e076e727250df7e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471"
+      },
+      "timestamp": "2024-11-08T14:34:59.583368782-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ab50c924318ae8eed6dc177ad559d073a9ff9dcbb84f8f0461a64915172de151e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-39222"
+      },
+      "timestamp": "2024-11-08T14:33:53.437361-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A4e85e3288864eb0363b256c01119d0f05ee6d0b198644b082e076e727250df7e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976"
+      },
+      "timestamp": "2024-11-08T14:34:55.989407415-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ab50c924318ae8eed6dc177ad559d073a9ff9dcbb84f8f0461a64915172de151e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656"
+      },
+      "timestamp": "2024-11-08T14:33:45.124312467-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A4e85e3288864eb0363b256c01119d0f05ee6d0b198644b082e076e727250df7e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29415"
+      },
+      "timestamp": "2024-11-08T14:34:24.6681849-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2cabf05fb452e23089670cda0ddf4b7dac6bcd0559ffd438f4559125ad5459b7"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}
