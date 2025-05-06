@@ -1,0 +1,73 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-21b72be83dcb61a4d7089ea85decbd82b6184340b3f069f90b9bbb0da2cf72dc",
+  "author": "Tigera security team",
+  "timestamp": "2025-05-06T14:13:02.614845691-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-06T14:12:06.75678718-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3A2f2216f5711b10c26e723fe6e810687d579039e1c7f2a0ba5949a39cc0a2edc1"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-06T14:12:18.183755242-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A96806566486190e6c42ff81287451855c9e22326b0522bb7a66f3f6c588b763d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-06T14:12:50.06517001-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7503abcb5222ab0a8de98c113471c3383c5d22c943a18dea455a95b9f99df021"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-06T14:13:02.598642688-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3A357fcc53261061d3c6250671add63dc26548ad020617242b5233dd6287b8227a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    }
+  ]
+}
