@@ -1,0 +1,25 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-d61a44d4450d394c3c5819f26739ad012197891cc375a99be329679ed3f7deff",
+  "author": "Tigera security team",
+  "timestamp": "2025-05-21T23:30:15.170980188-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4638",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-21T23:30:15.150524981-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa1e4e0d2631ab4f021e70a34205983b4cf81a006071d8279455184b58e98bc80"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in the next release. "
+    }
+  ]
+}
