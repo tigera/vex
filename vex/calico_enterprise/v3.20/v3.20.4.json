@@ -1,0 +1,169 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-5165cdddcae3c9d51d231e3a9ae1240324210c29c4f289cf7e7b2c2e4f8a5a33",
+  "author": "Tigera security team",
+  "timestamp": "2025-05-29T16:50:20.809253161-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2025-05-29T16:50:18.9829952-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A685418fb6c0303b51097eabafa1f5b3086f3221fb6c64acba7407baac74651f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This CVE is not exploitable in ElasticSearch since it does not use Java serialization in conjunction with Guava."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-21514",
+        "aliases": [
+          "GHSA-wrxf-x8rm-6ggg"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:20.735654326-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A05c80eacd07970ebfcd3477875c7a453842137f57e7f36ae41f11553d7a12778"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Fluentd-UI is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:48.053314133-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A685418fb6c0303b51097eabafa1f5b3086f3221fb6c64acba7407baac74651f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:46.092963485-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A685418fb6c0303b51097eabafa1f5b3086f3221fb6c64acba7407baac74651f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-23656",
+        "aliases": [
+          "GHSA-gr79-9v6v-gc9r"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:11.742358173-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Afa9f8951ab5ce3d9a6d18ffe613629ea97cf7dd2167cbc34f0f14ce879686354"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Dex v2.39.0 is not vulnerable."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "GHSA-8xfc-gm6g-vgpv"
+        ]
+      },
+      "timestamp": "2025-05-29T16:50:20.79415964-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A685418fb6c0303b51097eabafa1f5b3086f3221fb6c64acba7407baac74651f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This library is only used for FIPS mode which is not supported in Calico Enterprise."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:52.597944739-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A5d6b84ae93e9533fc860c9d6a98580d455d22bf4e10379b5c459910219763957"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27152",
+        "aliases": [
+          "GHSA-jr5f-v2jv-69x6"
+        ]
+      },
+      "timestamp": "2025-05-29T16:50:17.154798007-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Abc1ce650d2c83be8f8f1313c16699af3ef66fd5c8c81174c54031bbb8932ed1d"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and will be fixed in when the the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-43857",
+        "aliases": [
+          "GHSA-j3g3-5qv5-52mj"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:22.545981975-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A05c80eacd07970ebfcd3477875c7a453842137f57e7f36ae41f11553d7a12778"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4638",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-29T16:49:08.528599916-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A31a6bed904c5767987f803891c62149f39801bb21386740b8745b833ca6c7811"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The RHEL zlib is not affected and PointCloudLibrary is not used."
+    }
+  ]
+}
