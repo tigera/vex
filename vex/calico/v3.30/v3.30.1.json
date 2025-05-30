@@ -1,0 +1,153 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-71db5cb1faa319d02321c73a6f193519f8ac429add499ff68bd6f342441bacb2",
+  "author": "Tigera security team",
+  "timestamp": "2025-05-30T17:12:35.508527672-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:14.26918893-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3A490c629b2df34fbe5eeaf82683a61de24f6d08772606bb49bc75dfc41033ff20"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:20.838501697-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ac1880682c5a0aed91104cdbd809fd8681ff836d797200906b174d4544b2bca75"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:29.57167811-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3Aca34488aa86cff87191db7ade9c04908833cbd70f153c1bf619a3b8f7acfbabe"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:32.616959757-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3A70c858ec6784da29dcf7fee5fe98c792426dab4defaadf2a930aa9712c34e8b2"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:35.483485749-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3Affc349d8b44bdbf0ae1bffd15e9dd7d9146e6d9b1c5ce70c3e0417b2d56b3f91"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4638",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:26.421409744-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ac1880682c5a0aed91104cdbd809fd8681ff836d797200906b174d4544b2bca75"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The RHEL zlib is not affected and PointCloudLibrary is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:25.038579556-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ac1880682c5a0aed91104cdbd809fd8681ff836d797200906b174d4544b2bca75"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4802",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:23.599535493-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ac1880682c5a0aed91104cdbd809fd8681ff836d797200906b174d4544b2bca75"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-05-30T17:12:22.241505995-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ac1880682c5a0aed91104cdbd809fd8681ff836d797200906b174d4544b2bca75"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    }
+  ]
+}
