@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-f70ea676e7101c9eee53aa30ff6521a96d0d29bf8f50f6e82fd54cea4c53c443",
+  "author": "Tigera security team",
+  "timestamp": "2025-06-11T10:59:20.306783-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:17.943238-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Aefca4af3f32c0c67855059a0c3d32d29f3f45bd657b375633b4ebcbcd46d2aa5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This CVE is not exploitable in ElasticSearch since it does not use Java serialization in conjunction with Guava."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-06-11T10:58:20.036103-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Aefca4af3f32c0c67855059a0c3d32d29f3f45bd657b375633b4ebcbcd46d2aa5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:15.59172-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Aefca4af3f32c0c67855059a0c3d32d29f3f45bd657b375633b4ebcbcd46d2aa5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "GHSA-8xfc-gm6g-vgpv"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:20.281739-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Aefca4af3f32c0c67855059a0c3d32d29f3f45bd657b375633b4ebcbcd46d2aa5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This library is only used for FIPS mode which is not supported in Calico Enterprise."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:12.909825-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A37952512c5b30dc134c3fea34607912d44c08fbddf644d1774e80be792583b60"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27152",
+        "aliases": [
+          "GHSA-jr5f-v2jv-69x6"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:02.494304-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A728e28ffa4e40d992326e532ca485eafaf4ffb74beca581a5211f4297aebefae"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and will be fixed in when the the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48174",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-06-11T10:57:39.094938-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3A44e74a3e34321f0ebef9f075752f3285614c89e02b92bee6b8f4c4baa82cabd8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and will be fixed in when the the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48387",
+        "aliases": [
+          "GHSA-8cj5-5rvv-wf4v"
+        ]
+      },
+      "timestamp": "2025-06-11T10:59:05.437777-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A728e28ffa4e40d992326e532ca485eafaf4ffb74beca581a5211f4297aebefae"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and will be fixed in when the the fix is available."
+    }
+  ]
+}
