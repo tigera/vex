@@ -1,2 +1,5 @@
 # Ignore all the keys 
 *.key
+
+# Ignore all Mac DS
+ .DS_Store
