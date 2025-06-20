@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-d92483b12eef2a34cbb6d91b0be15d7f91af3a700d8440c32dc7abdc84f70f84",
+  "author": "Tigera security team",
+  "timestamp": "2025-06-20T11:01:22.882035-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-06-20T11:00:49.042275-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3A09ff4f10b3fa13dbb957203d0bb94213a36a658814e529ece2fd705942b34b15"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-06-20T11:00:53.537436-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3A11e2fb1393249f6db680127caabd36ef633b3d2e2892a1924b0acf027bd00477"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-06-20T11:00:58.708929-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Aa1cb67333fc64a63dcf6e0d9a95f0dd28227df04303cae5da99410b61da62a28"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-06-20T11:01:12.904059-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9858cdf8fd0ad2f262c41c1945b8e05797c022c907d5472725ca2067d7d08543"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-06-20T11:01:22.849848-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3Aace3ddff2d161c31b3f1e324b171d0f27197c4b9329dfe71e610dd3236028eef"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-06-20T11:01:17.07445-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9858cdf8fd0ad2f262c41c1945b8e05797c022c907d5472725ca2067d7d08543"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-06-20T11:01:15.572759-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9858cdf8fd0ad2f262c41c1945b8e05797c022c907d5472725ca2067d7d08543"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-06-20T11:01:14.255426-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9858cdf8fd0ad2f262c41c1945b8e05797c022c907d5472725ca2067d7d08543"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    }
+  ]
+}
