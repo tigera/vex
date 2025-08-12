@@ -1,0 +1,329 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-c77dfdc14691f28f398ce8e6c77d6832d8fccab13dbcffb165716aa6b193897c",
+  "author": "Tigera security team",
+  "timestamp": "2025-08-12T16:05:25.107554-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:57.509445-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abe6c8707934efa7b3ec634edcb50077203291178702ac92ed7d4905195629e5a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-53382",
+        "aliases": [
+          "GHSA-x7hr-w5r2-h6wg"
+        ]
+      },
+      "timestamp": "2025-08-12T16:03:42.556476-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A6814dce8762c099226384b1b4f3732881890854f291c5a9f1e4c90d7b200965c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:03:04.336363-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3Ae1484de590b93e3eaa928e5472034c08bb43bba4396bdd3f386c059a5dbcd162"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:17.304887-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3A0971bad595660ea4df7e26211320f8c1bac7cd47303f749af4cdc62fbb65dde8"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:23.219499-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A79b9b983157a3fcfd18bf4922cb3983c21b3c08de9a67769546f70895525806f"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:28.242656-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-apiserver@sha256%3Ab5c3aab91b6eb79b21bff8b390ce69e9b0447338a99b3096db45024bb4e2f4d6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:32.432348-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-queryserver@sha256%3Aab7ae2a5431a32040ca822a36b5250e218255a136fe34c777a3efc8e77789705"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:42.168347-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3Aa59eaded648c5b66b52b6972b1e8f56e2592de13453778af7a5c9875b5389117"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:05:04.586419-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3Ac03ec190bf86b2a615fc37806066f842949d56ce2e5fe7da5e4e5de4a280203e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:05:09.391854-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3A0978c97bc438bf33efd76f14e1b55cb155e58b067c82176a97ff9b4436b86400"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:05:14.075278-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3Ad295df843f8c656b8fe39c0edf935eaad8f0d8e74f2d68962d74d2ecfefd32a5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:05:20.027526-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A446f0d4c5caf75119097a2621ba9b518efee780530604dcf40dbb963b8ef775b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-08-12T16:05:25.068867-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A90fa41bf7da955d358cf2b73935e04068daf0be05e7d77427e157cc2d2eaa4b2"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22150",
+        "aliases": [
+          "GHSA-c76h-2ccp-4975"
+        ]
+      },
+      "timestamp": "2025-08-12T16:03:40.494712-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A6814dce8762c099226384b1b4f3732881890854f291c5a9f1e4c90d7b200965c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22227",
+        "aliases": [
+          "GHSA-4q2v-9p7v-3v22"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:11.932399-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad590d1ad25e46b0ac2baf60fe8740637d816e20174ca4c4a82b1be19fe3aecb6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GHSA-6v2p-p543-phr9"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:49.149821-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abe6c8707934efa7b3ec634edcb50077203291178702ac92ed7d4905195629e5a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GHSA-qxp5-gwg8-xv66"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:55.471069-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abe6c8707934efa7b3ec634edcb50077203291178702ac92ed7d4905195629e5a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GHSA-vvgc-356p-c3xw"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:53.531739-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abe6c8707934efa7b3ec634edcb50077203291178702ac92ed7d4905195629e5a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:51.481644-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3Abe6c8707934efa7b3ec634edcb50077203291178702ac92ed7d4905195629e5a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48924",
+        "aliases": [
+          "GHSA-j288-q9x7-2f5v"
+        ]
+      },
+      "timestamp": "2025-08-12T16:04:09.976082-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Ad590d1ad25e46b0ac2baf60fe8740637d816e20174ca4c4a82b1be19fe3aecb6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available."
+    }
+  ]
+}
