@@ -1,0 +1,153 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-d688c29f05981d26d84365b72954d8ce6d9a6cffda8d8a3548344403260549b9",
+  "author": "Tigera security team",
+  "timestamp": "2025-08-27T11:29:48.158045-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2025-08-27T11:29:43.948302-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A5d4c60fc659f72ebc6dbffb24ef67e4dd6b99d7a525ce7a303b7019b55d78665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2025-08-27T11:29:48.129642-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A5d4c60fc659f72ebc6dbffb24ef67e4dd6b99d7a525ce7a303b7019b55d78665"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:49.100898-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A29bc6ddf2ce17c8f0fe63f8ff3884ac8650d02aed9631e41f107464c2cc9fbc3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GHSA-6v2p-p543-phr9"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:45.267131-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A29bc6ddf2ce17c8f0fe63f8ff3884ac8650d02aed9631e41f107464c2cc9fbc3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-24294",
+        "aliases": [
+          "GHSA-xh69-987w-hrp8"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:33.46244-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3Ae839d4718e5dc1a7730ed1bb82c1a6e9b5f9d0a87dffbef428d40a1957d3370c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-43857",
+        "aliases": [
+          "GHSA-j3g3-5qv5-52mj"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:31.583215-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3Ae839d4718e5dc1a7730ed1bb82c1a6e9b5f9d0a87dffbef428d40a1957d3370c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:47.165119-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A29bc6ddf2ce17c8f0fe63f8ff3884ac8650d02aed9631e41f107464c2cc9fbc3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48174",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-08-27T11:27:10.369196-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/honeypod-exp-service@sha256%3A42f2a74a0574be1859fef49c7e5475bd42ec92185b26e077016eb74c56b20684"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and it will be fixed when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52999",
+        "aliases": [
+          "GHSA-h46c-h94j-95f3"
+        ]
+      },
+      "timestamp": "2025-08-27T11:29:46.182742-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A5d4c60fc659f72ebc6dbffb24ef67e4dd6b99d7a525ce7a303b7019b55d78665"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available."
+    }
+  ]
+}
