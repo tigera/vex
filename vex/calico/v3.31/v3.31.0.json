@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-43df8013d45e51282ffe2fb950dfc4f8aeee1e77df0830d2b6d587e086123a5e",
+  "author": "Tigera security team",
+  "timestamp": "2025-10-22T16:34:31.777991-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:21.724003-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A8f4e47fe242817435fbc77c56f18ac0c81c0c7a5a6a90d194b9910c26ef7da8d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:22.113384-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Af1072ba0b46338205831834851e0ba1edb1460d19e45213423806c7af7c4d3e9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:25.111991-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3A0cce01e531f45438fbeca7d6e7e295d03fe6d2316a09ab35150d2839f2f5905a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:28.541927-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3A014a74ed9e6a61d3b402cda20bcd1a4a1269df89561144d9f9665734eb92e557"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:31.741658-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3A7cf7bd9a71bd0932479d4a502e1a34fd7360ea09f6d69cd76fcf081f7596bf3c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:15.840146-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Af1072ba0b46338205831834851e0ba1edb1460d19e45213423806c7af7c4d3e9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:16.330001-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Af1072ba0b46338205831834851e0ba1edb1460d19e45213423806c7af7c4d3e9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-22T16:34:16.744455-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Af1072ba0b46338205831834851e0ba1edb1460d19e45213423806c7af7c4d3e9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    }
+  ]
+}
