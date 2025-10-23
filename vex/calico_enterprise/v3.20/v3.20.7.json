@@ -1,0 +1,137 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-233158f95107de2836d07c8c9c33673c1a38377ddf84a457e20979476674e192",
+  "author": "Tigera security team",
+  "timestamp": "2025-10-23T12:07:00.483154-04:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:07:00.450516-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Af59435a6133383ba23fbd4dd9ac471a8233775fb89f2bd1a57a51def10d4f657"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This CVE is not exploitable in ElasticSearch since it does not use Java serialization in conjunction with Guava."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:52.618205-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Af59435a6133383ba23fbd4dd9ac471a8233775fb89f2bd1a57a51def10d4f657"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch does not take yaml configuration input from untrusted sources, and the vulnerable function is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:53.556332-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Af59435a6133383ba23fbd4dd9ac471a8233775fb89f2bd1a57a51def10d4f657"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The plugin that uses the vulnerable library is not used. The vulnerability also requires local access to the pod."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:59.455191-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Af59435a6133383ba23fbd4dd9ac471a8233775fb89f2bd1a57a51def10d4f657"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. This library is only used for FIPS mode which is not supported in Calico Enterprise."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:42.074349-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A5d3ca3d66bb9f6d624cf1aa015459f7bcdb248893b02fd1bc99afc7dcfe161ce"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:40.185397-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A5d3ca3d66bb9f6d624cf1aa015459f7bcdb248893b02fd1bc99afc7dcfe161ce"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:58.385962-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Ae13c36efe2e41790d7689c277ce59b2fc8b28d49a7b801b4a25a7eb5be198894"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-10-23T12:06:41.082726-04:00",
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-benchmarker@sha256%3A5d3ca3d66bb9f6d624cf1aa015459f7bcdb248893b02fd1bc99afc7dcfe161ce"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The kubectl binary does not take input from an untrusted source."
+    }
+  ]
+}
