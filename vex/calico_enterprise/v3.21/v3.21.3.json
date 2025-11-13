@@ -1,10 +1,26 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "merged-vex-52bb4552888f88b78a36548ef4d94426a11caf6a60258ac7bfa2c198ea4543ba",
+  "@id": "merged-vex-f49de5334343279da402e71e1ea9459a2a88cdd82345f909da5666672f07ac8a",
   "author": "Tigera security team",
-  "timestamp": "2025-11-06T10:10:55.956278-05:00",
+  "timestamp": "2025-11-04T12:03:52.78376-05:00",
   "version": 1,
   "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-12735",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-04T12:03:52.747908-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ab22964aaad1c66ac1d201cd80e6596dbec7e66db6c0b4cc3d3dd55e2f16c2538"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The underlying dependency that imports expr-eval is not used by default."
+    },
     {
       "vulnerability": {
         "name": "CVE-2025-1767",
@@ -12,7 +28,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:09:33.435075-05:00",
+      "timestamp": "2025-11-04T12:02:29.892464-05:00",
       "products": [
         {
           "@id": "pkg:oci/dikastes@sha256%3A4f50565212419254ab84161460d7a4a98766c4e728388ba9665f47519b0ab87f"
@@ -28,7 +44,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:09:36.066158-05:00",
+      "timestamp": "2025-11-04T12:02:31.054965-05:00",
       "products": [
         {
           "@id": "pkg:oci/linseed@sha256%3A92cba59fb56c50048937ff6776a8c20c75710254c50a298e6f389dc3166cb92c"
@@ -44,7 +60,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:09:40.207987-05:00",
+      "timestamp": "2025-11-04T12:02:32.015814-05:00",
       "products": [
         {
           "@id": "pkg:oci/firewall-integration@sha256%3A47f76830ca49a2181aa8824a1b121662802d2365358908622a4b46516fba8f43"
@@ -60,7 +76,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:13.807244-05:00",
+      "timestamp": "2025-11-04T12:02:33.968151-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-apiserver@sha256%3A398ba4a3fba6a8c678a9b49126ea947d2cd5e0ff97a51215713aff66c68b2ee9"
@@ -76,7 +92,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:25.478457-05:00",
+      "timestamp": "2025-11-04T12:02:47.633515-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-node@sha256%3Abeb0ed31affc74ffe8ebdda73033ad91f4a9e22fe5930b55e2a7c8cae9db5bec"
@@ -92,7 +108,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:28.506557-05:00",
+      "timestamp": "2025-11-04T12:02:51.310819-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-queryserver@sha256%3Ae63bcc2b5318b7be2d1245a86fc47d0d0c816aaa5790c502b5cca0e6f16290c7"
@@ -108,7 +124,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:33.08482-05:00",
+      "timestamp": "2025-11-04T12:02:55.233339-05:00",
       "products": [
         {
           "@id": "pkg:oci/calicoq@sha256%3A495196adb08f6d6718756b214095be8a41b92b0b891a070274398729dea9bc34"
@@ -124,7 +140,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:36.155062-05:00",
+      "timestamp": "2025-11-04T12:02:59.505211-05:00",
       "products": [
         {
           "@id": "pkg:oci/webhooks-processor@sha256%3A213e0f1466ae4e509784463d00606d20888c36779c2ea8159aa1c013256d201e"
@@ -140,7 +156,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:40.492069-05:00",
+      "timestamp": "2025-11-04T12:03:03.239835-05:00",
       "products": [
         {
           "@id": "pkg:oci/compliance-reporter@sha256%3Abc669aa0e21f2ca3a8baa76889ec51b10252d9a28e9b3c2a930a345be7d58858"
@@ -156,7 +172,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:51.908834-05:00",
+      "timestamp": "2025-11-04T12:03:18.189773-05:00",
       "products": [
         {
           "@id": "pkg:oci/ui-apis@sha256%3Aba80d38bc9443b4d0bd813d68fb07d3f4c5fea218de43210715c9794929a80ff"
@@ -172,7 +188,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:55.910021-05:00",
+      "timestamp": "2025-11-04T12:03:26.958297-05:00",
       "products": [
         {
           "@id": "pkg:oci/kube-controllers@sha256%3A5223d704a3512c1884a364a1ade71962e8ed8d0a5ae193d182acf1f146b21009"
@@ -188,7 +204,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:09.505216-05:00",
+      "timestamp": "2025-11-04T12:02:32.993587-05:00",
       "products": [
         {
           "@id": "pkg:oci/elasticsearch@sha256%3Ab5f8727c413ae62b66363fcc6a337ea82961ed3bfddf66f05cc4eb15f400dc51"
@@ -204,7 +220,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:45.830144-05:00",
+      "timestamp": "2025-11-04T12:03:08.185822-05:00",
       "products": [
         {
           "@id": "pkg:oci/egress-gateway@sha256%3A14a039d603fbe17f8bc008d4c08e89cff7be604c0d17f57cfdb086e27ac73690"
@@ -220,7 +236,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:23.484394-05:00",
+      "timestamp": "2025-11-04T12:02:44.821981-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-node@sha256%3Abeb0ed31affc74ffe8ebdda73033ad91f4a9e22fe5930b55e2a7c8cae9db5bec"
@@ -236,7 +252,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:22.524039-05:00",
+      "timestamp": "2025-11-04T12:02:43.809031-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-node@sha256%3Abeb0ed31affc74ffe8ebdda73033ad91f4a9e22fe5930b55e2a7c8cae9db5bec"
@@ -252,7 +268,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:46.840934-05:00",
+      "timestamp": "2025-11-04T12:03:09.069552-05:00",
       "products": [
         {
           "@id": "pkg:oci/egress-gateway@sha256%3A14a039d603fbe17f8bc008d4c08e89cff7be604c0d17f57cfdb086e27ac73690"
@@ -268,7 +284,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:24.392397-05:00",
+      "timestamp": "2025-11-04T12:02:46.406435-05:00",
       "products": [
         {
           "@id": "pkg:oci/cnx-node@sha256%3Abeb0ed31affc74ffe8ebdda73033ad91f4a9e22fe5930b55e2a7c8cae9db5bec"
@@ -284,7 +300,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:47.768995-05:00",
+      "timestamp": "2025-11-04T12:03:09.923465-05:00",
       "products": [
         {
           "@id": "pkg:oci/egress-gateway@sha256%3A14a039d603fbe17f8bc008d4c08e89cff7be604c0d17f57cfdb086e27ac73690"
@@ -300,7 +316,7 @@
           "None"
         ]
       },
-      "timestamp": "2025-11-06T10:10:48.668673-05:00",
+      "timestamp": "2025-11-04T12:03:10.885686-05:00",
       "products": [
         {
           "@id": "pkg:oci/egress-gateway@sha256%3A14a039d603fbe17f8bc008d4c08e89cff7be604c0d17f57cfdb086e27ac73690"
