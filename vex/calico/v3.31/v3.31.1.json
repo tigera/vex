@@ -1,0 +1,169 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-5916403e4f49ae0b4e9b6658a03369f27da78f77d899be0251a9bdb88841dd81",
+  "author": "Tigera security team",
+  "timestamp": "2025-11-14T16:05:31.665684-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25621",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:04:57.204167-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A42581b2a3a49cb03553df0906fb7b0bfb1e5da6ee08f0a8a9b346b3cd04adc7f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:14.808091-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A53ae8585b88ecc6bbe9ef32d0cd0a088f3276426b03c2db5426928de1ec66bbf"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:18.43379-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3A474006e5446e3f454dbd55d4f7f7bb604e5c36b2080b822ead139b94bdcb0163"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:18.867011-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9ca0e3cc0768c8c8c9ae5e291b3b5268f4bba212fa1c48389e3d820b961615b6"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:25.286108-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3Ad5cd7a05b8b65c0a8c83d61b319150ad0e61c84491d3f58ad327081c48167254"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:31.6306-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3A586251b5c90bdebc8c4cff6550ec3cb30df53f1b095a276af932c141620ef72e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:08.271414-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9ca0e3cc0768c8c8c9ae5e291b3b5268f4bba212fa1c48389e3d820b961615b6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:07.787933-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9ca0e3cc0768c8c8c9ae5e291b3b5268f4bba212fa1c48389e3d820b961615b6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:05:08.711323-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A9ca0e3cc0768c8c8c9ae5e291b3b5268f4bba212fa1c48389e3d820b961615b6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64329",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2025-11-14T16:04:57.67175-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A42581b2a3a49cb03553df0906fb7b0bfb1e5da6ee08f0a8a9b346b3cd04adc7f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release."
+    }
+  ]
+}
