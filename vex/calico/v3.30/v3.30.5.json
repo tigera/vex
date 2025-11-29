@@ -1,0 +1,25 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-a11ed436f8464e1ee271c35e6ebf437841f11e5acb794f8361ff75dfab121104",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25621",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A5ec351b571fa8740523ce27c14b95b3ed10146fb7f1cf74667716a15dedebb72"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release.",
+      "timestamp": "2025-11-26T23:53:42.22659Z"
+    }
+  ],
+  "timestamp": "2025-11-26T23:53:42Z"
+}
