@@ -1,0 +1,585 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-7ce6f11771be0525e91d332ef572416428a3bf85669bcc197dc149864b8170ee",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-12735",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b215920736dd022c66063b9b950d2b925df31bfd6b453989d2756b8ba60c1f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The underlying dependency that imports expr-eval is not used by default.",
+      "timestamp": "2025-11-26T21:18:42.406933Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-13204",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b215920736dd022c66063b9b950d2b925df31bfd6b453989d2756b8ba60c1f9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:18:41.435467Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3Ac8743a980a28893c35d8f3afa347eede5e7e3cde97607f8c30370a003a4029f9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:18:14.877419Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3Ab63c9084d32a79ca57d27b94fd673a1939677510638683a2e8cbe51e8cd426d2"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:18:55.821767Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-apiserver@sha256%3A975d7dcfa7ea0d6e099a2927de9a17a535324db8459d731d3be3690b3ecac4a5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:18:59.274431Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-queryserver@sha256%3A547ec86ef222654c436bd10b65a70130b8e49663560a539a706b089d50dc819a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:19:35.417011Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A2b80bced0ca5e2792288a4cdf3b22059ec3fdb52c2718671c07fb2408cc9b048"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:19:39.48191Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A1e5671c07ac9faf6d66deba06532ff41a9b7f82162b5a270fd63181576154815"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:19:51.987039Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3A6a9f049616593e09b1c3f34c24723537ccb4235b1293cfa7c9d0351aec173112"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:19:55.77252Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3A814dee815d31cfbad1bfde65cc2c566b054bb52907f24f3a19ea8c99c0cdcf02"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:20:01.595392Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A34819d177d19f9f98bcbef92f2300b28b0397ec246e687c7e438651c47a254b3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:20:23.28943Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A5d1e10b7233dfa0170ebadba7273ef706ad353c9cd77adbc0203a24ae5a6fb94"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:20:35.007953Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3A54c41a52ed32404f6da3365ec16abb5805569fe17ffb4c6bd266513a2c56fcd5"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2025-11-26T21:20:38.222386Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22227",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A1a3258fe9452eaf252f2e742e1a81a9005c3c79825bc6117477204e0f2df437b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and will be fixed in a future release when it is available.",
+      "timestamp": "2025-11-26T21:19:32.022926Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A5232e69d6c3b1add60482bd26e61256640cf477f1eca8b25fbdddc0fef969eaf"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected.",
+      "timestamp": "2025-11-26T21:20:28.501439Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A1e5671c07ac9faf6d66deba06532ff41a9b7f82162b5a270fd63181576154815"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:19:49.251435Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A1e5671c07ac9faf6d66deba06532ff41a9b7f82162b5a270fd63181576154815"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:19:48.407538Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47268",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A5232e69d6c3b1add60482bd26e61256640cf477f1eca8b25fbdddc0fef969eaf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:20:29.542892Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/alertmanager@sha256%3A142e85f80e7d3c064b3a59e4c8d4118b344fa317c7850d970fce359ee4550ace"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:18:47.380965Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-config-reloader@sha256%3A7a0e84f45769cd3e443d208f6d455235e2df78da905eee03417894594bba7b9e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:18:50.952454Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/operator@sha256%3Aedbd17a54c54242af1d7decb373fa5b0f57ba0a03c29c5220cc7634eeaea5176"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:19:02.978427Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/eck-operator@sha256%3A0fd9a5a977067adb4d527456428024bd15eb6138294b4929c20e26cdb13491c9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:19:06.847556Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A999b14d0af0ab44cd2257a3e59f04a1ac85b783e11412b5a1e7e69965b462c1b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:20:07.496542Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A537610e153d7819612863110f9b1e49d4893059e6b9a9787d93bc512f541692a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:20:14.812325Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A1e5671c07ac9faf6d66deba06532ff41a9b7f82162b5a270fd63181576154815"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:19:51.12387Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5702",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A5232e69d6c3b1add60482bd26e61256640cf477f1eca8b25fbdddc0fef969eaf"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of glibc is not affected.",
+      "timestamp": "2025-11-26T21:20:30.496344Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/alertmanager@sha256%3A142e85f80e7d3c064b3a59e4c8d4118b344fa317c7850d970fce359ee4550ace"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:18:46.955253Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-config-reloader@sha256%3A7a0e84f45769cd3e443d208f6d455235e2df78da905eee03417894594bba7b9e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:18:50.527729Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/operator@sha256%3Aedbd17a54c54242af1d7decb373fa5b0f57ba0a03c29c5220cc7634eeaea5176"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:19:02.521467Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/eck-operator@sha256%3A0fd9a5a977067adb4d527456428024bd15eb6138294b4929c20e26cdb13491c9"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:19:06.471593Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A999b14d0af0ab44cd2257a3e59f04a1ac85b783e11412b5a1e7e69965b462c1b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:20:07.133309Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A537610e153d7819612863110f9b1e49d4893059e6b9a9787d93bc512f541692a"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The vulnerable function is not used.",
+      "timestamp": "2025-11-26T21:20:14.000679Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64718",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b215920736dd022c66063b9b950d2b925df31bfd6b453989d2756b8ba60c1f9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:18:44.264267Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64756",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9b215920736dd022c66063b9b950d2b925df31bfd6b453989d2756b8ba60c1f9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:18:43.337333Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-8058",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A5232e69d6c3b1add60482bd26e61256640cf477f1eca8b25fbdddc0fef969eaf"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of glibc is not affected.",
+      "timestamp": "2025-11-26T21:20:31.313714Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-9230",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cnx-node@sha256%3A1e5671c07ac9faf6d66deba06532ff41a9b7f82162b5a270fd63181576154815"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2025-11-26T21:19:50.114986Z"
+    }
+  ],
+  "timestamp": "2025-11-26T21:20:38Z"
+}
