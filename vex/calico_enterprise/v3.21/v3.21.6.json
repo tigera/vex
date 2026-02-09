@@ -1,0 +1,89 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-eb526f36197272b63db4d4990aa989cdeacc6842b3a43f9a2280e7c7940893d3",
+  "author": "Tigera security team",
+  "timestamp": "2026-02-04T10:20:21.73118-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2026-02-04T10:19:18.618542-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aa2dbac978b1324001c241696f0b0017c68c22329cd5ca6645a2aea69e1fb7f02"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of openssl is not affected. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2026-02-04T10:19:20.637949-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aa2dbac978b1324001c241696f0b0017c68c22329cd5ca6645a2aea69e1fb7f02"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected. "
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-21932",
+        "aliases": [
+          "None"
+        ]
+      },
+      "timestamp": "2026-02-04T10:19:48.682668-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A667da10c8d8704dfb4b14b0edb5ca4e350e72c50ba9482f15bcea39f7e08bd32"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch is a server-side application that does not utilize affected components like Java AWT or JavaFX for its functionality."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24842",
+        "aliases": [
+          "GHSA-34x7-hfp2-rc4v"
+        ]
+      },
+      "timestamp": "2026-02-04T10:20:21.689147-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9e021cbcaa427cf4ecdb6e9e548e329be5ef880ed68d4d4f637ca401cbab831d"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25128",
+        "aliases": [
+          "GHSA-37qj-frw5-hhjh"
+        ]
+      },
+      "timestamp": "2026-02-04T10:20:19.638703-05:00",
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A9e021cbcaa427cf4ecdb6e9e548e329be5ef880ed68d4d4f637ca401cbab831d"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available."
+    }
+  ]
+}
