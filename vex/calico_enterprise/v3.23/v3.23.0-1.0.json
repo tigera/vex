@@ -1,0 +1,89 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-68fec8b0d5563b2ebcff9107798a84c442d144de35e1dc37e08ebe16456b6261",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Af7c299dedb6039848deb1e7b8eb810beb55cbcf97a735b03eab454f02bcec34b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of openssl is not affected. ",
+      "timestamp": "2026-02-13T17:27:41.295222Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Af7c299dedb6039848deb1e7b8eb810beb55cbcf97a735b03eab454f02bcec34b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected. ",
+      "timestamp": "2026-02-13T17:27:43.365927Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-21932",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A7e97a1810e3bde619da1a5d382f8bdbd042ec348cf9c71329c7cd954b13530f8"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Elasticsearch is a server-side application that does not utilize affected components like Java AWT or JavaFX for its functionality.",
+      "timestamp": "2026-02-13T17:27:34.959183Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24842",
+        "aliases": [
+          "GHSA-34x7-hfp2-rc4v"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A5bb9608b8810b8ed9bfa17d34b5b695bc37af53985745a765af73de05671f586"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-02-13T17:27:36.999954Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25639",
+        "aliases": [
+          "GHSA-43fc-jf86-j433"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A5bb9608b8810b8ed9bfa17d34b5b695bc37af53985745a765af73de05671f586"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-02-13T17:27:39.031557Z"
+    }
+  ],
+  "timestamp": "2026-02-13T17:27:43Z"
+}
