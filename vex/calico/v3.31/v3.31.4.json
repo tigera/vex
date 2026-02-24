@@ -1,0 +1,281 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-262d590b07fc5365093353fc4baac7c4790f2ce7efda71fd6d673bd791fe0c62",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2018-20839",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:41:55.981876Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-45940",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:42:01.189929Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-45941",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:41:59.344326Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-4899",
+        "aliases": [
+          "GHSA-5c9c-6x87-f9vm"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:41:57.703363Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-0466",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:41:54.116392Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11187",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:42:13.410797Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14104",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:42:15.314657Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-02-19T21:42:11.678555Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3A2be359075ff772530fe1db9d674eaa3b7b39cda31c3f6dd297bc8ece7d9082d0"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-02-19T21:42:20.324674Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3Aa602fb51a5e39fe224c534cceaec936545adddc467a37f3139dab5205b8bf7dd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-02-19T21:42:25.417909Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A1f6c3da65b7fa0eb54eec2f73ad7d045df7da38e9c69972afa54ce72e9d38d84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-02-19T21:42:31.040137Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Aaed2e5e0c75856b6f57669ebcf84632584276c50e5221de3b62b434780113b0d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-02-19T21:42:36.000645Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-02-19T21:42:06.098752Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-02-19T21:42:04.358586Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-02-19T21:42:08.039612Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69419",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-02-19T21:42:02.73847Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-0915",
+        "aliases": [
+          "None"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A2a3656eb74aa76a697dec178dc089462a908c66360a838513f0c00c7245c5e6f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-02-19T21:42:09.910419Z"
+    }
+  ],
+  "timestamp": "2026-02-19T21:42:36Z"
+}
