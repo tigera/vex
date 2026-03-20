@@ -1,0 +1,25 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-70b07ad26950e5366aabfde74c656efdfa289dc388991603b5f2ccbe15fa15fb",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051",
+        "aliases": [
+          "GHSA-9h8m-3fm2-qjrq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-ratelimit@sha256%3A4c5f980ad47dcbc8806b2cf7bb8beec3131a0106eb908858d7bce81c70766a46"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. This CVE will be fixed in a future release.",
+      "timestamp": "2026-03-17T16:18:38.391152Z"
+    }
+  ],
+  "timestamp": "2026-03-17T16:18:38Z"
+}
