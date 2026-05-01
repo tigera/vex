@@ -1,0 +1,413 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-7a9e2aeaa41546749c22786767d9cf74a28b450713e4f542d8da9acac949f1b5",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A2ba75219b29eb3b25247601c2cd4faf206490efed2ca77cc6aaeabe0df359016"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution is not affected.",
+      "timestamp": "2026-04-24T16:04:27.674106Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A2ba75219b29eb3b25247601c2cd4faf206490efed2ca77cc6aaeabe0df359016"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected.",
+      "timestamp": "2026-04-24T16:04:29.875442Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-62718",
+        "aliases": [
+          "GHSA-3p68-rc4w-qgx5"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The NO_PROXY hostname-normalization mismatch cannot be triggered. The Kibana Stack connectors is set to \"proxy: false\" by default, and other callers use admin-configured hostnames that do not utilize the trailing-dot or IPv6-literal form.",
+      "timestamp": "2026-04-24T16:04:51.37874Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-68665",
+        "aliases": [
+          "GHSA-r399-636x-v7f6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:40.565517Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33671",
+        "aliases": [
+          "GHSA-c2c7-rcm5-vvqj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:55.703081Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33750",
+        "aliases": [
+          "GHSA-f886-m6hf-6m8v"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:57.832464Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33870",
+        "aliases": [
+          "GHSA-pwqr-wmgm-9rr8"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A58eaef7dede4b8d7b61fc56e3a766738ac6863d413f70c2fc230efa423a73f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elastic Search at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:23.299576Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33871",
+        "aliases": [
+          "GHSA-w9fj-cfpg-grvv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A58eaef7dede4b8d7b61fc56e3a766738ac6863d413f70c2fc230efa423a73f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elastic Search at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:21.142072Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33937",
+        "aliases": [
+          "GHSA-2w6w-674q-4c4q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. No user-controlled JSON is passed to the vulnerable Handlebars.compile() function in default configuration. ",
+      "timestamp": "2026-04-24T16:04:36.02431Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33938",
+        "aliases": [
+          "GHSA-3mfm-83xf-c92r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:49.277894Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33939",
+        "aliases": [
+          "GHSA-9cx6-37pm-9jff"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:43.020237Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33940",
+        "aliases": [
+          "GHSA-xhpv-hc6g-r9c6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:53.496141Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33941",
+        "aliases": [
+          "GHSA-xjpj-3mr7-gcpf"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:59.95179Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A28a703dbd9680b4eebb088e65e1c396fd6b0901c6ff5fe9085ee043f79744dcd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-04-24T16:04:10.191808Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A29e1d8d6bb929c6a5f07be5358baae40dbaf918dc48a281b1aad7863761e26c9"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-04-24T16:04:14.277213Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34478",
+        "aliases": [
+          "GHSA-445c-vh5m-36rj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A58eaef7dede4b8d7b61fc56e3a766738ac6863d413f70c2fc230efa423a73f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elastic Search at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:16.572584Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A58eaef7dede4b8d7b61fc56e3a766738ac6863d413f70c2fc230efa423a73f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elastic Search at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:18.804544Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34481",
+        "aliases": [
+          "GHSA-w35j-pv5h-q9q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A58eaef7dede4b8d7b61fc56e3a766738ac6863d413f70c2fc230efa423a73f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elastic Search at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:25.524344Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35213",
+        "aliases": [
+          "GHSA-jg4p-7fhp-p32p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:34.079798Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39983",
+        "aliases": [
+          "GHSA-chqc-8p9q-pq6q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:31.98027Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40895"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:05:02.120541Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41242",
+        "aliases": [
+          "GHSA-xq3m-2v4x-88gg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Kibana does not accept arbitrary protobuf definitions from protobufJS.",
+      "timestamp": "2026-04-24T16:04:38.28472Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41316",
+        "aliases": [
+          "GHSA-q339-8rmv-2mhv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3Aae1813a5f62c39abdcc65fe29228a9c1d0608816708b91d7d1c01d400893c2bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-04-24T16:04:12.458071Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41324",
+        "aliases": [
+          "GHSA-rp42-5vxx-qpwr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:47.181842Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4800",
+        "aliases": [
+          "GHSA-r5fr-rjxr-66jc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A2e75710c7a9e1f96a3bc3426990f6308521780a3e76dcc480f14551488371930"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-04-24T16:04:45.086424Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4878"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A22e124458b529c7e3a824088c69a0d8296e44e844565a151754b8746d8e7af02"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-04-24T16:05:12.262672Z"
+    }
+  ],
+  "timestamp": "2026-04-24T16:05:12Z"
+}
