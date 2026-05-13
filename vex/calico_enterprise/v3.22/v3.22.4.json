@@ -1,0 +1,96 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-61818bfa8df1b481551807e1334b4779d0993e667452eaa390fb882a74e0c411",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec1bade7af427999a153c3c5bd8326530873d0a043068e2f8bc5e74f880b1953"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of OpenSSL is not affected.",
+      "timestamp": "2026-05-13T18:26:49.078617Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec1bade7af427999a153c3c5bd8326530873d0a043068e2f8bc5e74f880b1953"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected.",
+      "timestamp": "2026-05-13T18:26:51.288887Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Af19ed3b7f7cc7de0c60d119d1061c8d984a4e4bddb9b332ded29cb2118085d0e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-13T18:26:42.504873Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A9389bdce75637a073465dc638e3732dbb93b17758f6544d3a7b2e1ed4453d7f8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-13T18:27:07.7918Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41316",
+        "aliases": [
+          "GHSA-q339-8rmv-2mhv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A5fdafc63aa37d6d3c8199be299e7620f6f2fd128022fabcab38228b2f566789b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-13T18:27:01.186162Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4878"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec1bade7af427999a153c3c5bd8326530873d0a043068e2f8bc5e74f880b1953"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-13T18:26:53.67458Z"
+    }
+  ],
+  "timestamp": "2026-05-13T18:27:07Z"
+}
