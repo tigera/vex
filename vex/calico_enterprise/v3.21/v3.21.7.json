@@ -1,0 +1,160 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-f7d3637aae408e146e2dbcd3f86a0f4be16479e6a9499263d3ba340cb2f20296",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A4b82d22179ae3ddd4949ffe6a7948bad6de360bdf0de112639e91be76d6a853b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of openssl is not affected. ",
+      "timestamp": "2026-05-12T18:38:36.311031Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A4864413008f2bdb3ef6f010515209118d30c43b759f4d0864e8d2a67c43fd8b7"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:37:55.98057Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A4b82d22179ae3ddd4949ffe6a7948bad6de360bdf0de112639e91be76d6a853b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected.",
+      "timestamp": "2026-05-12T18:38:38.71867Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3Ac0dbe4eede36a070640b5fbf67b4017f830ecc83a5bc4e571d26a587e8d8e531"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:37:48.051704Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34040",
+        "aliases": [
+          "GHSA-x744-4wpc-v9h2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A4864413008f2bdb3ef6f010515209118d30c43b759f4d0864e8d2a67c43fd8b7"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:37:58.335837Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44665",
+        "aliases": [
+          "GHSA-5wm8-gmm8-39j9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ab74cf7f93ea35a32dea0842406e8fd7cb2cc84643e1e410ac10ddf7977c5699e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:38:27.991603Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44902",
+        "aliases": [
+          "GHSA-q7rr-3cgh-j5r3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ab74cf7f93ea35a32dea0842406e8fd7cb2cc84643e1e410ac10ddf7977c5699e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:38:30.170175Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4878"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A4b82d22179ae3ddd4949ffe6a7948bad6de360bdf0de112639e91be76d6a853b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The current RedHat Enterprise Linux 8 distribution of libcap includes the mitigation. ",
+      "timestamp": "2026-05-12T18:38:40.902251Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6321",
+        "aliases": [
+          "GHSA-q3j6-qgpj-74h6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ab74cf7f93ea35a32dea0842406e8fd7cb2cc84643e1e410ac10ddf7977c5699e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:38:23.283456Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6322",
+        "aliases": [
+          "GHSA-v39h-62p7-jpjc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ab74cf7f93ea35a32dea0842406e8fd7cb2cc84643e1e410ac10ddf7977c5699e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-05-12T18:38:25.541374Z"
+    }
+  ],
+  "timestamp": "2026-05-12T18:38:40Z"
+}
