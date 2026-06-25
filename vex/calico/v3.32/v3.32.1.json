@@ -1,0 +1,348 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-4bf0ed494825dccfe91464946d2cf6d9e321dc2d42ae19b1e5f840cac0989b90",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/goldmane@sha256%3A5f876f14def62cc85412ea2f59c73870521e6b9cdd2597bcfbb5f6e711ef3b82"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:26:27.956807Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:26:50.913927Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:26:52.748494Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3Aea515b04230b6b7f36512e76606b2ade79d647fc9ccc1124d2308cba57b2f340"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:26:59.980747Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/whisker-backend@sha256%3A02db839b87a9237230e8372e51ecd9410cd21046c0cce7d2ab678c43147ca389"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:27:05.626154Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Aa98909fd25630534c7e77b1a36b8801cc551e9f6622c7d806fee33216368f632"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-23T16:27:13.709764Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:43.069414Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25680"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:12.712558Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25681"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:15.564275Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2673"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:34.941362Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:17.173519Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27456"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:49.198236Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33814"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:18.93194Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34743"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:37.324728Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39821"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:20.628197Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4105",
+        "aliases": [
+          "GHSA-765j-qfrp-hm3j"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:43.836188Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42250"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:47.269962Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42502"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:22.389368Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42506"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/flannel-migration-controller@sha256%3Aa40d3887cd5eeee7765d404c3455447693d1e6d90616d2305abeee62e81f2abc"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:24.13031Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5435",
+        "aliases": [
+          "GHSA-8qv3-p479-cj62"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:41.432848Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5450",
+        "aliases": [
+          "GHSA-fm7p-mprw-wjm9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:35.671434Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5928"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:40.693681Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5958"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:45.664689Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6238"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A7f874b3f0b540c2b523aea9961ef5e2f43b0af9056a47874c916d6cf348168d3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-23T16:26:39.00601Z"
+    }
+  ],
+  "timestamp": "2026-06-23T16:27:13Z"
+}
