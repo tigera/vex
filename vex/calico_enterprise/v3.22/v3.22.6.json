@@ -1,0 +1,1202 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-31c16194cf92ef32ff4933c6ff247c05dadb63b7a64066373576abe1da210c00",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-4899",
+        "aliases": [
+          "GHSA-5c9c-6x87-f9vm"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:05.907335Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-0466"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:03.844885Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-53382",
+        "aliases": [
+          "GHSA-x7hr-w5r2-h6wg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:58:49.460582Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11187"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library is not affected.",
+      "timestamp": "2026-06-15T22:59:33.406127Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15467"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of OpenSSL is not affected.",
+      "timestamp": "2026-06-15T22:58:00.077441Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A13ab1529696c595fbd1c9c48e48a6331503e5ccb12ef54abd3334c5a54ae96a7"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:58:46.965845Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A9361065857338bb924b6bd13bd9a7eac3ff5cdee9ecf2683c777f166157807bd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:59:09.429306Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3A06d63a08b79ebdb65ccc26d060d0848379f2876a24afe7d43be77ea283e6b214"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:59:13.524827Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3A29370de41b462d807e057fa24798a4fcccef4acdeb4d35e0857c7189ba190d31"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:59:17.732182Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3A44a3e5bcd03da923c8cc246f8f4fbfb2f1d254bb7bb544221c8b669a1f66aeb2"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:59:21.525521Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3A384ad30c7cebe17fbd7fe5e916c22b7c34e502600877bc0ec031a4be3beaa0a4"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T22:59:52.391919Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:00:44.188071Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/queryserver@sha256%3A754b2fcf5de1071ab25957dd0bb8b84a03cc14236a14161d9b212e5c752c18cd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:00:52.25898Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3Aa6f82b42f9dddb450be60b033ccf9506cc4d50f0bbae20fffca82cafbd083969"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:00:56.632098Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3A1ad577508cbbf9d5361d5e4045e60c79882379986b61f03d350856ac523d43c8"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:01:10.158909Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A6f564acccace19930800e071f3e233b00f458ccab02a0376472cbb5e35ab9423"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:01:14.954815Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1767",
+        "aliases": [
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A6bb2ccdf6d847826466a6327ff02d0c1e792ad4b1cd12a88ee80cfc6238ebe6f"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. The in-tree gitRepo volumes feature is not used.",
+      "timestamp": "2026-06-15T23:01:18.351205Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22227",
+        "aliases": [
+          "GHSA-4q2v-9p7v-3v22"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-06-15T22:59:54.610569Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of xz-utils is not affected.",
+      "timestamp": "2026-06-15T22:58:02.173396Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-4598"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:15.064961Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46836"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:08.285014Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47268"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T22:59:31.308534Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48964"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T22:59:46.204928Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5278"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:12.799576Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-5702"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of glibc is not affected.",
+      "timestamp": "2026-06-15T22:59:39.69895Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69419"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of OpenSSL includes the mitigation.",
+      "timestamp": "2026-06-15T22:59:28.065294Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-69720"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library is not affected.",
+      "timestamp": "2026-06-15T22:59:23.660331Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-8058"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library includes the mitigation.",
+      "timestamp": "2026-06-15T22:59:48.460306Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-9230"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T22:59:37.618753Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-0915"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library includes the mitigation.",
+      "timestamp": "2026-06-15T22:59:43.918507Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-26280",
+        "aliases": [
+          "GHSA-9c88-49p5-5ggf"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:32.419512Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-26318",
+        "aliases": [
+          "GHSA-5vv4-hvf7-2h46"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:41.310575Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2739",
+        "aliases": [
+          "GHSA-378v-28hj-76wf"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:58:53.878977Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27456"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:35.270433Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28390"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T22:59:25.814663Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28390"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:10.636613Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-29111"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:30.9218Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31790"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library is not affected.",
+      "timestamp": "2026-06-15T22:59:35.506761Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32952",
+        "aliases": [
+          "GHSA-pjcq-xvwq-hhpj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Ab936602c6743e04b50da80b990088f90640a85134590d2d1b9bbbbfd9dfc3358"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:48.467058Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33532",
+        "aliases": [
+          "GHSA-48c2-rrv3-qjmp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:58:51.702032Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34182"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:39.045311Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34183"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:26.38641Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34743"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:22.024314Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4046",
+        "aliases": [
+          "GHSA-w3w2-mpp5-92gm"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 8 distribution of this library includes the mitigation.",
+      "timestamp": "2026-06-15T22:59:41.82945Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4105",
+        "aliases": [
+          "GHSA-765j-qfrp-hm3j"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:36.613963Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41650",
+        "aliases": [
+          "GHSA-gh4j-gqv2-49f6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:58:56.066061Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41907",
+        "aliases": [
+          "GHSA-w5hq-g745-h8pq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:43.417635Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42250"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:33.173464Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42764"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:28.663154Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44249",
+        "aliases": [
+          "GHSA-3qp7-7mw8-wx86"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-06-15T22:58:27.989006Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4437",
+        "aliases": [
+          "GHSA-9phm-9p8f-hw5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T22:59:29.210556Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4437",
+        "aliases": [
+          "GHSA-9phm-9p8f-hw5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:16.265371Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44664",
+        "aliases": [
+          "GHSA-45c6-75p6-83cc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:58:58.163876Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44665",
+        "aliases": [
+          "GHSA-5wm8-gmm8-39j9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:47.812769Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44724",
+        "aliases": [
+          "GHSA-hvx9-hwr7-wjj9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:27.508643Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44902",
+        "aliases": [
+          "GHSA-q7rr-3cgh-j5r3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:39.099486Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44974",
+        "aliases": [
+          "GHSA-36hh-x5p5-jgc8"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:55.124834Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44979",
+        "aliases": [
+          "GHSA-vhjm-w67q-g75c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:59:02.586617Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45149",
+        "aliases": [
+          "GHSA-jxxr-4gwj-5jf2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:34.608319Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45416",
+        "aliases": [
+          "GHSA-x4gw-5cx5-pgmh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-06-15T22:58:30.20217Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45447"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. This release ships OpenSSL version 1.1.1k-16.el8_6 for Red Hat Enterprise Linux 8, which includes the backported fix for this vulnerability",
+      "timestamp": "2026-06-15T22:58:40.344381Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45673",
+        "aliases": [
+          "GHSA-xmv7-r254-6q78"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-06-15T23:00:01.191687Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45674",
+        "aliases": [
+          "GHSA-676x-f7gg-47vc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-06-15T22:58:34.601837Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46625",
+        "aliases": [
+          "GHSA-qjx8-664m-686j"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:37.063665Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47240",
+        "aliases": [
+          "GHSA-8p34-64r3-mwg8"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3Ad62c8e34e7e31b92b442e223255e0a120a7c81eb6b12cd557babd05b0d352521"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:01:06.232872Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47242",
+        "aliases": [
+          "GHSA-46q3-7gv7-qmgg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3Ad62c8e34e7e31b92b442e223255e0a120a7c81eb6b12cd557babd05b0d352521"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:01:03.970502Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47244",
+        "aliases": [
+          "GHSA-5x3r-wrvg-rp6q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-06-15T22:59:56.774303Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47691",
+        "aliases": [
+          "GHSA-5pvg-856g-cp85"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release. ",
+      "timestamp": "2026-06-15T22:58:32.351559Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-48022",
+        "aliases": [
+          "GHSA-x426-x7cc-3fpc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:59:04.778011Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-48043",
+        "aliases": [
+          "GHSA-c2gf-v879-257j"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A8b3f4f9ae4c706c719e93944db532faf73d8dbde7da7c2432ba30697a0915893"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-06-15T22:59:59.094864Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-48049",
+        "aliases": [
+          "GHSA-rcvq-m9j9-6f4g"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-06-15T22:59:00.434226Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-48068",
+        "aliases": [
+          "GHSA-5375-pq7m-f5r2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:50.371474Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-48069",
+        "aliases": [
+          "GHSA-99f4-grh7-6pcq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:52.754223Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4878",
+        "aliases": [
+          "GHSA-h5x3-xfc9-m39h"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3Aec6d4d9a118b9b16a4220ce146490f8a9a0e053314af6f8e0cc049fee251bc67"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. This release ships libcap version 2.48-6.el8_10.1 for Red Hat Enterprise Linux 8, which includes the backported fix for this vulnerability",
+      "timestamp": "2026-06-15T22:58:04.496821Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5435"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:24.16719Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5450",
+        "aliases": [
+          "GHSA-fm7p-mprw-wjm9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:17.444689Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5928"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:19.709909Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5958"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Aa4797a1e22400b55e0e3a34dd851ccf0649f038cc659a6fce99b777d576f2a94"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-06-15T23:00:41.313164Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6321",
+        "aliases": [
+          "GHSA-q3j6-qgpj-74h6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:29.99512Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6322",
+        "aliases": [
+          "GHSA-v39h-62p7-jpjc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A3d629f0f0db7ac898faf235fdb171e816a9c4c16cb9cfadd3b7fc56fdc54a072"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-06-15T22:57:45.558771Z"
+    }
+  ],
+  "timestamp": "2026-06-15T23:01:18Z"
+}
