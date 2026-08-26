@@ -1,0 +1,99 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-89919dedc79066851ff660c3e8f59c01aff465a407f6153f47b81feddf9fa733",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31115"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A097fbba911ed5046895cd343c7d5ce522e11ddddecace64715c34f11e3f9fc89"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. The RedHat Enterprise Linux 9 distribution of xz-utils is not affected.",
+      "timestamp": "2026-07-25T14:34:17.067336Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39244",
+        "aliases": [
+          "GHSA-xcpc-8h2w-3j85"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A56ce785ee76877ef8e3443ac793b268f7aa98c441e311702f6ebe5ae1a3bc7ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-07-25T14:34:07.630462Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41907",
+        "aliases": [
+          "GHSA-w5hq-g745-h8pq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A56ce785ee76877ef8e3443ac793b268f7aa98c441e311702f6ebe5ae1a3bc7ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-07-25T14:34:09.987551Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4878",
+        "aliases": [
+          "GHSA-88p2-jj8w-j8qg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A097fbba911ed5046895cd343c7d5ce522e11ddddecace64715c34f11e3f9fc89"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. This release ships libcap version 2.48-10.el9_8.1 for Red Hat Enterprise Linux 9, which includes the backported fix for this vulnerability.",
+      "timestamp": "2026-07-25T14:34:21.004644Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-50289",
+        "aliases": [
+          "GHSA-5xpp-75jx-m839"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A56ce785ee76877ef8e3443ac793b268f7aa98c441e311702f6ebe5ae1a3bc7ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-07-25T14:34:05.01919Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54369"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A097fbba911ed5046895cd343c7d5ce522e11ddddecace64715c34f11e3f9fc89"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. This release ships libacl version 2.4.0-1.el9_8 for Red Hat Enterprise Linux 9, which includes the backported fix for this vulnerability.",
+      "timestamp": "2026-07-25T14:34:19.686761Z"
+    }
+  ],
+  "timestamp": "2026-07-25T14:34:21Z"
+}

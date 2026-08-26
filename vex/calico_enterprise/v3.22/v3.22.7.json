@@ -1,0 +1,93 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-705d6608ed287e204eff3c9e41e3f693fac891d4aacf2b0888487c17065b2d33",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41907",
+        "aliases": [
+          "GHSA-w5hq-g745-h8pq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ace7656faf6cecbe7897159f93fdb0b818b4a0e9c0705207d943be7ba1bf4c8be"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-08-15T14:50:43.198737Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47063"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A858378de1f3a49308223fc6647aa2c0698a830fc43a6310cd06dc023c963fa19"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-08-15T14:50:09.748269Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-56876",
+        "aliases": [
+          "GHSA-jmr9-qjv8-65gv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ace7656faf6cecbe7897159f93fdb0b818b4a0e9c0705207d943be7ba1bf4c8be"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-08-15T14:50:45.463054Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-62574"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A858378de1f3a49308223fc6647aa2c0698a830fc43a6310cd06dc023c963fa19"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-08-15T14:50:07.325104Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-66755"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A858378de1f3a49308223fc6647aa2c0698a830fc43a6310cd06dc023c963fa19"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-08-15T14:50:04.910087Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-5p4m-2wfm-xmqj"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Ace7656faf6cecbe7897159f93fdb0b818b4a0e9c0705207d943be7ba1bf4c8be"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release and will be patched in a future release.",
+      "timestamp": "2026-08-15T14:50:40.809238Z"
+    }
+  ],
+  "timestamp": "2026-08-15T14:50:45Z"
+}
