@@ -1,0 +1,484 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-7f1421c9f0a4e8134c023dc6120ddeec6a6e7e6ba9b2c5631c3b4e7c75bb41b4",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-14993",
+        "aliases": [
+          "GHSA-qcvw-82hh-gq38"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-09-03T19:03:10.52228Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-39155",
+        "aliases": [
+          "GHSA-7774-7vr3-cc8j"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-09-03T19:03:12.834474Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-39156",
+        "aliases": [
+          "GHSA-hqxw-mm44-gc4r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-09-03T19:03:15.163649Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-23635",
+        "aliases": [
+          "GHSA-856q-xv3c-7f2f"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-09-03T19:03:17.558262Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31045",
+        "aliases": [
+          "GHSA-xwx5-5c9g-x68x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-09-03T19:03:19.942959Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18374"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:56.429819Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18374"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:38.949437Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19499"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:53.357697Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19499"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:35.825646Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19542"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:50.121866Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19542"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:32.589491Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27171"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:16.428167Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-38753"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/release@sha256%3A09f1bea6c7d98d6cb49ee2afeb672035ecb59c86b0091f0ec8ff2eed3877b45a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:02:56.339305Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-38754"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/release@sha256%3A09f1bea6c7d98d6cb49ee2afeb672035ecb59c86b0091f0ec8ff2eed3877b45a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:02:53.389852Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-38755"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/release@sha256%3A09f1bea6c7d98d6cb49ee2afeb672035ecb59c86b0091f0ec8ff2eed3877b45a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:02:50.25439Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5435",
+        "aliases": [
+          "GHSA-6x9p-4r67-5gjx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:30.859231Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5435",
+        "aliases": [
+          "GHSA-6x9p-4r67-5gjx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:10.253261Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5450",
+        "aliases": [
+          "GHSA-6f5r-5672-72j7"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:25.642229Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5450",
+        "aliases": [
+          "GHSA-6f5r-5672-72j7"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:04.753665Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5928"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:28.970812Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5928"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:08.031048Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6238",
+        "aliases": [
+          "GHSA-p3m8-78j2-g5p3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:34.01306Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6238",
+        "aliases": [
+          "GHSA-p3m8-78j2-g5p3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:13.373308Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6368"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:47.051218Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6368"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:29.272285Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6791"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:43.765842Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6791"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:25.829773Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77117"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:40.510207Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77117"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:22.55731Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-80489"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/agent-detector@sha256%3A450be25546d381dea2cd6a643076bc75bbe308e89654522be7e3175cc43b4ca8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:03:37.368242Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-80489"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:19.47541Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-85091"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui@sha256%3A7141fe11440cf52137c4ce927c74085ec3ec840175e98dc1a060053b479e7c87"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:50.547531Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2026-5932"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/samples@sha256%3A6bf5461cd1e6b5324c1770e8a4e7f974527c6085b62c17645d29958be14a5bef"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:44.708101Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2026-5932"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3Ac15597b04aeb44d386bd0579ccb938ff74d61681fe790275070ef28c959d3fab"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-09-03T19:04:47.289294Z"
+    }
+  ],
+  "timestamp": "2026-09-03T19:04:50Z"
+}
