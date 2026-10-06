@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "merged-vex-1a9e6cc7d24870f0834e54b760d6beaa969c1dda4f2ad6c4cb6421261491fe90",
+  "@id": "merged-vex-a8d957f78292826538c5858f58c00cd948f9b18ab6f52a9fcce3719eb4539b4c",
   "author": "Tigera security team",
   "version": 1,
   "statements": [
@@ -19,6 +19,19 @@
       "status": "not_affected",
       "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
       "timestamp": "2026-10-05T19:08:17.192077Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-25014"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3A611ce38e28678acb599865eee4944bbf4a410be8ffbb7ae3a9df317a3fbd4f48"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-10-06T16:05:53.740678Z"
     },
     {
       "vulnerability": {
@@ -86,6 +99,19 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2022-39278"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/services@sha256%3A611ce38e28678acb599865eee4944bbf4a410be8ffbb7ae3a9df317a3fbd4f48"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Lynx uses commit f1a56063393c of Istio which is not affected.",
+      "timestamp": "2026-10-06T16:04:13.511273Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-102010"
       },
       "products": [
@@ -110,7 +136,7 @@
       "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
       "timestamp": "2026-10-05T19:08:44.851994Z"
     },
-    {
+ {
       "vulnerability": {
         "name": "CVE-2026-18374"
       },
@@ -535,5 +561,5 @@
       "timestamp": "2026-10-05T19:10:01.394899Z"
     }
   ],
-  "timestamp": "2026-10-05T19:10:04Z"
+  "timestamp": "2026-10-06T16:05:53Z"
 }
