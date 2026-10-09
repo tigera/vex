@@ -1,0 +1,116 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-0b1f3fd65f993ae4d426d64cec70408a581495db0c350a030e19df63a22acab4",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-0799"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:32.60032Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-103111"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:40.423998Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:48.485475Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54876"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:35.233283Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75140",
+        "aliases": [
+          "GHSA-65r4-943x-97jj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A094fdf951a93a5827d5ac28c280f21d0d25901ece65ca3cb5de467ecf5cf7964"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and will be patched when a fix is available.",
+      "timestamp": "2026-10-05T21:29:21.899641Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84782"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:37.814109Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-86145"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:43.276657Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-89161"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A94b987e1a2444960b772c6fe4124e916eab3601a6ca19640a7ebeb651eb005bf"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-05T21:29:45.910505Z"
+    }
+  ],
+  "timestamp": "2026-10-05T21:29:48Z"
+}
