@@ -1,0 +1,61 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-657fb06e4362e985a4fa9b7d5308f6947acf9fd9a43d015a8f4778a701b7c581",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A963d97f44ca31bd8733bdc8820f0e126f508f67eaf9b834e78c5ea6076544562"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-26T19:11:22.132107Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53615"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A963d97f44ca31bd8733bdc8820f0e126f508f67eaf9b834e78c5ea6076544562"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-26T19:11:24.184523Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A963d97f44ca31bd8733bdc8820f0e126f508f67eaf9b834e78c5ea6076544562"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-26T19:11:20.027342Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78669"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3A61162b8086688a2024f7cad283334e14d006f8b6e94ba622cfe9f00b7e75fdd3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release. ",
+      "timestamp": "2026-10-26T19:11:11.35535Z"
+    }
+  ],
+  "timestamp": "2026-10-26T19:11:24Z"
+}
