@@ -1,0 +1,774 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-ad38e7626d449763beaee1c831c76004a34d63acdff6ee3a411480424bbc3459",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-53382",
+        "aliases": [
+          "GHSA-x7hr-w5r2-h6wg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:42:08.376676Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-101910",
+        "aliases": [
+          "GHSA-2vr4-cq9g-pvrc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:50.047325Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-101911",
+        "aliases": [
+          "GHSA-h3mg-xc3c-68pw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:53.159153Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-101912",
+        "aliases": [
+          "GHSA-j6r3-76f7-8jcv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:56.199584Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-101913",
+        "aliases": [
+          "GHSA-rpw4-54j3-4h4q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:59.153601Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102010"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:29.558807Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-104872",
+        "aliases": [
+          "GHSA-qqmp-wf37-98f9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:37.840844Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111755",
+        "aliases": [
+          "GHSA-8r9p-f939-6h3c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:39.364136Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111756",
+        "aliases": [
+          "GHSA-q3jh-wrc6-jgq8"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:42.096277Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111758",
+        "aliases": [
+          "GHSA-gfr2-rv44-r23c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:45.001021Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111759",
+        "aliases": [
+          "GHSA-r7fv-28h4-cvq7"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:48.014718Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111997",
+        "aliases": [
+          "GHSA-rxp7-6hxx-x8q5"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:42:02.528742Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-114406"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Calico Node uses patched version of golang for TLS which removed the vulnerable certificate authority.",
+      "timestamp": "2026-10-23T21:38:16.281159Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13595"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:26.898301Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-15059"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:22.120351Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18238"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:35.043583Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18313"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:38.236359Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19693",
+        "aliases": [
+          "GHSA-7pqw-9j4j-h8q3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:33.851219Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2739",
+        "aliases": [
+          "GHSA-378v-28hj-76wf"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:43.604752Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27456"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:29.937179Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31911"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:41.288319Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31912"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:44.268454Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34743"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:32.754092Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4105",
+        "aliases": [
+          "GHSA-vx8h-4prv-g744"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:23.998967Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42250"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:11.345909Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42772"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:50.107792Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45819",
+        "aliases": [
+          "GHSA-w5vr-8v7q-w6rv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:40.673304Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-45822",
+        "aliases": [
+          "GHSA-vcc3-ghjq-m6fr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:41:46.810601Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-49844",
+        "aliases": [
+          "GHSA-qv9r-c865-cp47"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-10-23T21:41:32.037377Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:39:56.411751Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53615"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:39:59.202002Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54872"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:53.02625Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54873"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:55.725837Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54875"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:59.18137Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-56391"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:14.280561Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-56876",
+        "aliases": [
+          "GHSA-jmr9-qjv8-65gv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:36.656935Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5958"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:19.216339Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6244"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:47.022385Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:39:53.708952Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-72897"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:02.107911Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75804"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:04.959872Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75805"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:07.765479Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75806"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:10.413189Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77420",
+        "aliases": [
+          "GHSA-5q95-hrpc-m3w3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-10-23T21:41:35.078107Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77696"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:13.461385Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84784"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:43:16.200182Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-85393",
+        "aliases": [
+          "GHSA-86w9-cpqp-85rv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:50.898508Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-8674"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:17.157924Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-86805"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:20.700701Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-89092"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:23.537244Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-93687",
+        "aliases": [
+          "GHSA-vfj7-8cjw-p6xm"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:39:30.291833Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-95619"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:32.279Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-95818"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-10-23T21:42:26.543199Z"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-253c-mchw-3w2r"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3Af52684dc1737a90b6cff7bfa2e9c85e1129042605987301436c0032e8fb3498e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-10-23T21:42:05.401763Z"
+    }
+  ],
+  "timestamp": "2026-10-23T21:43:32Z"
+}
