@@ -1,0 +1,768 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-1e14891b48e623b466886f1084f01a15a1065d0e0a69acf292817475ddfcdf1f",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102554",
+        "aliases": [
+          "GHSA-xxph-c9ww-hj94"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3A2d49d9636f6f35c6459e7e9c56074e7e1ed8946117af81ed115f294e6209ff83"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-05T23:08:42.502647Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102990",
+        "aliases": [
+          "GHSA-c475-qrg2-pj4r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:06:50.280229Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-107826",
+        "aliases": [
+          "GHSA-6gcq-wc29-5xf2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A2ea0c96a19832e27ccda6c765624fbea2c63c02b118eb82cf594c13bce76c7c5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:05:42.148229Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-107826",
+        "aliases": [
+          "GHSA-6gcq-wc29-5xf2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3A1c73e9952ef956de708c91e2fa2cab8d8440862cc03f32ef139d9f35838fb335"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:08:59.585074Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116576",
+        "aliases": [
+          "GHSA-3f7j-7jwc-fxfj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:17.096934Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/voltron@sha256%3A9eef95637ae98e4d429fc84f1dd9e2908f6aa0027accd294896571a636cd854f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:13.493736Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/guardian@sha256%3Af7c25da47972ae6dab2ea19a1967fd44fda3cefa621f6a648c2b3b733b73125a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:20.731367Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Aa811e61e545fc7d170c9879a605cbcbe20f09de097d4390a8353b5efdaecd379"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:28.771245Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/queryserver@sha256%3A99daee2f51f13d4f56c1c5b7759f80e208cd45aa6aea250b5dd11b36c803b635"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:35.406836Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A1daadb1b7074398ff44bb5747bd13cb0f1169ea0b97b7d22d3a6a6675c9740cd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:42.728613Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A1a9eaaa80c4bcc0e88d43650eff6e4978505afece4b7569fc24799138ddeb7ef"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:49.987748Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoctl@sha256%3Ad83bc232bb4542ab545dd718de4907523066ac8bac0a3c66ae7bf0326ac6bae2"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:04:58.406566Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A4866f3a6fd0b48595f00f855b0ebac94af7b388f8bae90c0f79bc37fba0ce73c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:05:22.761945Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3Ac882c7fd3e6a6b79b726a0b9c8f122990074f3455676adfd796c5907e0fa76a3"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:05:56.110738Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3Ae547cadbdebeadc8a216c3f8a64446f00740ea4022c8f71aa8d61bc41aec5396"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:06:04.955979Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/intrusion-detection-controller@sha256%3Afbe7221f84dd3b44693cf9786015c4e28f5786142296c7d8c32017f7e6d56ac4"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:08:51.770205Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3A1c73e9952ef956de708c91e2fa2cab8d8440862cc03f32ef139d9f35838fb335"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:05.918671Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3A9d14a375cad1495c6d5a67f026c0783bd0fb2e8bb51eecfc4c4aa5a4bb6ca05c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:13.802668Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-controller@sha256%3A8f3dd44294dab36208245ac10a33276fe5fe7c638830d099f2c4ec5f1d156149"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:20.793797Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3Aa02db8d2b6461b81cf952433da0b426dde4f3b3d79107d9834ca818200349fd2"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:29.44951Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-snapshotter@sha256%3Aa8ae6ac3e76539ede860fc15b9559f27c4432dd4b511b9d8296c6c583f95c0e6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:36.906283Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-server@sha256%3A32d1cdfaab14de850a725784cb792e29277316bd9cb57eb49a5e8c1d7219449c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:45.0089Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/l7-collector@sha256%3A4f03c7e45d3e4bf263b7156a6720156b469c04ca001e123b1dd119a689e65a8c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:53.119326Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/gateway-l7-collector@sha256%3A0ec461ba34ec1415090746e9d0b7a8211078b74721f54179b48f58c9522154d2"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:03.271462Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3Afe2b31a515636cff08b743cc2280f8a5003ce35593431fa87009dc2d634f118a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:09.901634Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3Aa6c91b76e7391cc77165dfc3db80240d2413df911a6b83b5a0f14f73302a9091"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:17.323242Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3A1b50ecbf9882c3394cdb2aa2ba1821f41b8b3523c8a5484a693b1c7dbfbdb26b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:23.903438Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/policy-recommendation@sha256%3A897ff6c5fb4d50227986305317d39a51d97eb6ffd960a3f3cfef17b01cdbf160"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:30.48663Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3Ad90afeed6256a8ea71725bdaf99638f5c44a49be30334244f02a68a99418c8b8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:37.172275Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3A3b8619f2d2819d6a56a2c32157815e6efe1fdb73d2a611d8d1159c8097421d4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:44.123376Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3A593dd1fa957eae97e34ae786865264772699c42ea64f9a2f007bed0a4b929fdd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:10:53.153231Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-install-cni@sha256%3A1a746c3861b1d7e52f23cfc2432cf2dfdf36b0ea5a82fcea38aec55e1a41aa6c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:11:01.119874Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-pilot@sha256%3A00ecf3d761e3191051adaa360a191c412c784913056a6817779dd594b0cb515b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:11:09.104083Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-proxyv2@sha256%3Aef5544e53e78687d07c29721af653195a1c147541d0ca63d41ced867a7ab358b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:11:19.346147Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118664",
+        "aliases": [
+          "GHSA-qr28-fpjm-wq7f"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:06:53.186472Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118772",
+        "aliases": [
+          "GHSA-4528-x5fx-h6hg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:06:56.06397Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118779",
+        "aliases": [
+          "GHSA-7wch-p9px-956x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:06:59.083305Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118782",
+        "aliases": [
+          "GHSA-jc66-7q78-782g"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:01.98054Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-119187",
+        "aliases": [
+          "GHSA-hqq3-7jhf-c5jx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:05.237637Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-119188",
+        "aliases": [
+          "GHSA-8hrf-8g6f-7xwp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:08.133219Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-119190",
+        "aliases": [
+          "GHSA-5x38-2vff-x55p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:11.290813Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-119202",
+        "aliases": [
+          "GHSA-8494-f6mr-cjpv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:06:47.204285Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41510",
+        "aliases": [
+          "GHSA-6r3q-mjv7-xr8m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A2ea0c96a19832e27ccda6c765624fbea2c63c02b118eb82cf594c13bce76c7c5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:05:44.705728Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41510",
+        "aliases": [
+          "GHSA-6r3q-mjv7-xr8m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3A1c73e9952ef956de708c91e2fa2cab8d8440862cc03f32ef139d9f35838fb335"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-05T23:09:02.850323Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A4866f3a6fd0b48595f00f855b0ebac94af7b388f8bae90c0f79bc37fba0ce73c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-05T23:05:16.934514Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53615"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A4866f3a6fd0b48595f00f855b0ebac94af7b388f8bae90c0f79bc37fba0ce73c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-05T23:05:19.84316Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A4866f3a6fd0b48595f00f855b0ebac94af7b388f8bae90c0f79bc37fba0ce73c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-05T23:05:14.119307Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-85393",
+        "aliases": [
+          "GHSA-86w9-cpqp-85rv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kibana@sha256%3A44c79e613d502ebbb0583dde57fe3d0c4773ff608ec812cda5cecd04b9db785c"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Kibana at the time of release, and it will be patched when the fix is available.",
+      "timestamp": "2026-11-05T23:07:14.300592Z"
+    }
+  ],
+  "timestamp": "2026-11-05T23:11:19Z"
+}
