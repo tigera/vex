@@ -1,0 +1,4092 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-92c90abd13c4f5d8c34863e7f4a863fde2e4a3ab502c9183ad1b7edeb5f441b8",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2021-46195"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        },
+        {
+          "@id": "pkg:rpm/redhat/libgcc"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Vulnerable code cannot be controlled by Adversary.",
+      "timestamp": "2026-11-18T16:20:22.861448Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-27943"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:20:25.675276Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41409"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:20:28.83133Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:20:39.014105Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3A9dfa5a6aba93b57dbdc7ab63ede33dac1fc622d44f312f8216d58667f6d23c4d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:20:48.027053Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A961fc168f45912af76404ccd43f8a02aa08136c12f1dc557b3d00a1e511b291b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:21:03.668793Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A75956613243c7ff304576e44b16353d58fa7c61712d107b08e5a88d4b18b511c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:21:12.248834Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:00.561348Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/es-gateway@sha256%3A82783e0bdef9cd8559b039a061aab627c505b31eadb1c32976a6b0fa9e3b6226"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:06.436609Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:25.836266Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ingress-collector@sha256%3Ae9158618509d42f972cacb5e719f9ea93f28c3d1492a201445961f20eb410966"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:31.001901Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:39.804043Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/l7-admission-controller@sha256%3Ab0fdb94def114541a30231ccc18f0096ef83432024f47751062ef10b905770dd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:45.33064Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:52.917041Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:22:55.749215Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:01.602221Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:08.047399Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/typha@sha256%3A2f4aeec49fea86011869185d4106d1c082c5f8b27d9e4726583ace65efd2f78e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:17.140031Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-41378",
+        "aliases": [
+          "GHSA-5r5h-q934-cccp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks@sha256%3Aae0a8ceceb39e2788b4dfda8483ccae059b15072cf1297cf22c7903c790f593b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.18.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:24.31056Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-50495"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:23:27.244129Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-51774",
+        "aliases": [
+          "GHSA-c8v6-786g-vjx6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:23:30.068142Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-13176"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:24:51.146121Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25126",
+        "aliases": [
+          "GHSA-22f2-v57c-j9cx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:23:36.076656Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25260"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:23:32.920178Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26141",
+        "aliases": [
+          "GHSA-xj5v-6v4g-jfw6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:23:39.011018Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26146",
+        "aliases": [
+          "GHSA-54rr-7fvw-6x8f"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:23:41.99482Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:44.815386Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3A9dfa5a6aba93b57dbdc7ab63ede33dac1fc622d44f312f8216d58667f6d23c4d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:47.739499Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A961fc168f45912af76404ccd43f8a02aa08136c12f1dc557b3d00a1e511b291b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:50.001079Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A75956613243c7ff304576e44b16353d58fa7c61712d107b08e5a88d4b18b511c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:52.892605Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:55.825849Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/es-gateway@sha256%3A82783e0bdef9cd8559b039a061aab627c505b31eadb1c32976a6b0fa9e3b6226"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:23:58.82193Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:01.812139Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ingress-collector@sha256%3Ae9158618509d42f972cacb5e719f9ea93f28c3d1492a201445961f20eb410966"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:04.630683Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:07.373898Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/l7-admission-controller@sha256%3Ab0fdb94def114541a30231ccc18f0096ef83432024f47751062ef10b905770dd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:10.124562Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:12.873086Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:15.765632Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:18.906471Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:21.737212Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/typha@sha256%3A2f4aeec49fea86011869185d4106d1c082c5f8b27d9e4726583ace65efd2f78e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:24.88284Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33522",
+        "aliases": [
+          "GHSA-6362-gv4m-53ww"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks@sha256%3Aae0a8ceceb39e2788b4dfda8483ccae059b15072cf1297cf22c7903c790f593b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.19.0-2.0 and later. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:24:27.703604Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-35176",
+        "aliases": [
+          "GHSA-vg3r-rm7w-2xgh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:30.637444Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-39908",
+        "aliases": [
+          "GHSA-4xqq-m2hx-25v8"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:33.484825Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41123",
+        "aliases": [
+          "GHSA-r55c-59qm-vjw6"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:36.316069Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41946",
+        "aliases": [
+          "GHSA-5866-49gr-22v4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:39.497678Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41996"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:24:45.324229Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-43398",
+        "aliases": [
+          "GHSA-vmwr-mc7x-5vc3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:42.546177Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-49761",
+        "aliases": [
+          "GHSA-2rxp-v6pw-ch6m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:48.061989Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11961"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:27.414022Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1371"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:24:57.478719Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1376",
+        "aliases": [
+          "GHSA-fmqf-pmcm-8cx9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:00.394027Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-1377"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:03.209107Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-25184",
+        "aliases": [
+          "GHSA-7g2v-jj9q-g3rg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:24:54.49687Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27111",
+        "aliases": [
+          "GHSA-8cgq-6mh2-7j6v"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:06.157315Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-27610",
+        "aliases": [
+          "GHSA-7wqh-767x-r66v"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:09.314354Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-46727",
+        "aliases": [
+          "GHSA-gjh7-p2fx-99vx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:12.256741Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61780",
+        "aliases": [
+          "GHSA-r657-rxjc-j557"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:21.329183Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61919",
+        "aliases": [
+          "GHSA-6xw4-3v39-52mm"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:24.524189Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-6442",
+        "aliases": [
+          "GHSA-r995-q44h-hr64"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:15.245383Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-9232"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:18.252006Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102010"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:11.640554Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102554",
+        "aliases": [
+          "GHSA-xxph-c9ww-hj94"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:31:35.129756Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:50.635331Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497",
+        "aliases": [
+          "GHSA-9v8h-qqgm-4m35"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy@sha256%3A97f3ba499d2c9538ed5875c357e50d7140cc103d55e1da2d15c8d339bd5092ca"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:32:02.790455Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-111497",
+        "aliases": [
+          "GHSA-9v8h-qqgm-4m35"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-proxy@sha256%3Afa2f79cb80181226b7431ec188f6a8d150e770ea86fcdbf6dbec5a3a2773d15f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:32:11.45878Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-114406"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:44.03212Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-114437",
+        "aliases": [
+          "GHSA-j6qf-3m9c-vwj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3Aca88a073fffb9a4898011d4cdafb85b98d451d2fe99a59f70d4106a1d34890ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:51.399916Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-114690"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:37:28.499533Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-114691"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:37:31.7065Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-115456"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:37:34.797203Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:32:14.500231Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoctl@sha256%3Ae1f3def581d099edae03337c9f902959ed1ad87e7eb8d25811e582d311adfb85"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:32:22.190598Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A6978240cdc7ae4f145bca20d005c7cd7e16f9c33366098e1f7789e900e74f7ec"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:32:30.111301Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-controller@sha256%3Aee3c1d3c6142c4c9e0f2ef38e8a84d6c2657e06e1cd676fb2cc73024ef7d2f15"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:32:37.855758Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A68b83434bd8f15a39bc5e2c28595e628d8cd6d27e7955c2f4d3f41796d711a41"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:32:45.747467Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Ab8201b97049074434f5d649baccdf40c716680dfb0706b442b01be72871e6581"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:32:55.106858Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3A2ace474dedff7690a8c4e61a834d7071fb45b17cd382065cd1501b03053a3eba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:02.941512Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/gateway-l7-collector@sha256%3A45c257681096e0d844d93a96afbaf4ee91cc202134d411a666bc0a8a52e9f7d8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:10.695004Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/guardian@sha256%3Ac3902c31e015426d7a9383a02f770a20989537bf073e420a9abfd3bd27f5da05"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:16.049096Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/intrusion-detection-controller@sha256%3A62915392488859306eea1d722432e798cd0aafb6d3ad54548c0bbaf1d0ef8b11"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:32.949069Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:36.066246Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:39.269494Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3Aca88a073fffb9a4898011d4cdafb85b98d451d2fe99a59f70d4106a1d34890ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:42.22262Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:45.462101Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:48.579808Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/policy-recommendation@sha256%3Aed569fa7b857806c79a40fa7a6a022c43bc35010280959a6d397fc01825bd0cd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:55.868523Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:33:58.895633Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/queryserver@sha256%3A520cfb4a2e980f7a2a58e21ce28418489eb79087498c648187fb06ba5c1a27fa"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:07.013407Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3A434fa8fea109e77c3d74e900ad28182f6816c1aadac8b979df858ec7198552f0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:16.544238Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/voltron@sha256%3A341b796e1b3050a46170988b86a654910404a9d83acd597888f9cd31d3f60f39"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:23.826054Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3Adb3ecdb16f28d50ee7cb8c7983fee146dc74a6a6aad71441b54339d52bb988a5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:31.631005Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116585",
+        "aliases": [
+          "GHSA-4w3g-jfj2-cw2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3Ab5094fc88308781d2b56be2bb2c1c052490c1514a5d3f03c039ab8c5504db33e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:38.225503Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:41.040794Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoctl@sha256%3Ae1f3def581d099edae03337c9f902959ed1ad87e7eb8d25811e582d311adfb85"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:43.990413Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A6978240cdc7ae4f145bca20d005c7cd7e16f9c33366098e1f7789e900e74f7ec"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:47.105255Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-controller@sha256%3Aee3c1d3c6142c4c9e0f2ef38e8a84d6c2657e06e1cd676fb2cc73024ef7d2f15"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:50.335046Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A68b83434bd8f15a39bc5e2c28595e628d8cd6d27e7955c2f4d3f41796d711a41"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:53.594228Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Ab8201b97049074434f5d649baccdf40c716680dfb0706b442b01be72871e6581"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:34:56.632634Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3A2ace474dedff7690a8c4e61a834d7071fb45b17cd382065cd1501b03053a3eba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:34:59.730698Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/gateway-l7-collector@sha256%3A45c257681096e0d844d93a96afbaf4ee91cc202134d411a666bc0a8a52e9f7d8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:02.66733Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/guardian@sha256%3Ac3902c31e015426d7a9383a02f770a20989537bf073e420a9abfd3bd27f5da05"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:05.654375Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/intrusion-detection-controller@sha256%3A62915392488859306eea1d722432e798cd0aafb6d3ad54548c0bbaf1d0ef8b11"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:08.525143Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:11.638509Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:14.540013Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3Aca88a073fffb9a4898011d4cdafb85b98d451d2fe99a59f70d4106a1d34890ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:17.498626Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:20.478627Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:23.582511Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/policy-recommendation@sha256%3Aed569fa7b857806c79a40fa7a6a022c43bc35010280959a6d397fc01825bd0cd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:26.605455Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:29.436843Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/queryserver@sha256%3A520cfb4a2e980f7a2a58e21ce28418489eb79087498c648187fb06ba5c1a27fa"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:32.479748Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3A434fa8fea109e77c3d74e900ad28182f6816c1aadac8b979df858ec7198552f0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:35.483025Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/voltron@sha256%3A341b796e1b3050a46170988b86a654910404a9d83acd597888f9cd31d3f60f39"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:38.299049Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3Adb3ecdb16f28d50ee7cb8c7983fee146dc74a6a6aad71441b54339d52bb988a5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:41.58686Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116586",
+        "aliases": [
+          "GHSA-vvm8-gf78-28g4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3Ab5094fc88308781d2b56be2bb2c1c052490c1514a5d3f03c039ab8c5504db33e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:45.018094Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:48.00336Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoctl@sha256%3Ae1f3def581d099edae03337c9f902959ed1ad87e7eb8d25811e582d311adfb85"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:50.883772Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/calicoq@sha256%3A6978240cdc7ae4f145bca20d005c7cd7e16f9c33366098e1f7789e900e74f7ec"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:54.251583Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-controller@sha256%3Aee3c1d3c6142c4c9e0f2ef38e8a84d6c2657e06e1cd676fb2cc73024ef7d2f15"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:57.07349Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/compliance-reporter@sha256%3A68b83434bd8f15a39bc5e2c28595e628d8cd6d27e7955c2f4d3f41796d711a41"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:35:59.982645Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dex@sha256%3A183370af0f2aef5719c019ae5208e9d0b0a646a6dc03508ddcd43a665d187bba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:07.11788Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Ab8201b97049074434f5d649baccdf40c716680dfb0706b442b01be72871e6581"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:36:10.105983Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/firewall-integration@sha256%3A2ace474dedff7690a8c4e61a834d7071fb45b17cd382065cd1501b03053a3eba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:13.313303Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/gateway-l7-collector@sha256%3A45c257681096e0d844d93a96afbaf4ee91cc202134d411a666bc0a8a52e9f7d8"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:16.245472Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/guardian@sha256%3Ac3902c31e015426d7a9383a02f770a20989537bf073e420a9abfd3bd27f5da05"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:19.174141Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/intrusion-detection-controller@sha256%3A62915392488859306eea1d722432e798cd0aafb6d3ad54548c0bbaf1d0ef8b11"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:22.030332Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-install-cni@sha256%3A3ab7162fb5bf81ce42c5c0c065e2249bca7837f23a0cf10225f6a9f53f6650d0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:36:30.094865Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-pilot@sha256%3A4f4c11f5229f281f10eafa404d34fbe6e7705697cdde4efb384b080a7da1f745"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:36:37.941435Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-proxyv2@sha256%3Ad557855eb55e86354116150fa7c249ecc202157b010a0efcbbc6ac8c7a405004"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:36:45.896622Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:49.0583Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:52.222286Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/linseed@sha256%3Aca88a073fffb9a4898011d4cdafb85b98d451d2fe99a59f70d4106a1d34890ed"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:55.127794Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:36:58.137371Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:00.906222Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/policy-recommendation@sha256%3Aed569fa7b857806c79a40fa7a6a022c43bc35010280959a6d397fc01825bd0cd"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:03.835439Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:06.673221Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/queryserver@sha256%3A520cfb4a2e980f7a2a58e21ce28418489eb79087498c648187fb06ba5c1a27fa"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:09.707482Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ui-apis@sha256%3A434fa8fea109e77c3d74e900ad28182f6816c1aadac8b979df858ec7198552f0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:12.967121Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/voltron@sha256%3A341b796e1b3050a46170988b86a654910404a9d83acd597888f9cd31d3f60f39"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:16.079315Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/waf-http-filter@sha256%3Adb3ecdb16f28d50ee7cb8c7983fee146dc74a6a6aad71441b54339d52bb988a5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:19.026767Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks-processor@sha256%3Ab5094fc88308781d2b56be2bb2c1c052490c1514a5d3f03c039ab8c5504db33e"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:37:22.134132Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118259",
+        "aliases": [
+          "GHSA-ccrj-gw8r-854m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:37:25.366214Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-119566"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus@sha256%3A80346b9084b9fc9a1cbb986cca32ac9fdb8e2c8224347ccac568ddcd6f6e3648"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:37:44.7633Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-122054"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "Not vulnerable. Vulnerable code not present.",
+      "timestamp": "2026-11-18T16:37:53.427655Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13595"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:28:49.811805Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-15059"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:12.922329Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-17507"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:30:53.706545Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-17508"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:30:56.78704Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18036"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:30:59.694964Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18040"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:02.461931Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18238"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:36.142586Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-18313"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:39.074261Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22860",
+        "aliases": [
+          "GHSA-mxw3-3hh2-x2mh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:33.797885Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25500",
+        "aliases": [
+          "GHSA-whrj-4476-wvmp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:37.010863Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25765",
+        "aliases": [
+          "GHSA-33mh-2634-fwr2"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:30.401878Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-26961",
+        "aliases": [
+          "GHSA-vgpv-f759-9wx3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:54.329869Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27171"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:40.056174Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27456"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:35.004253Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28387"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:37.941651Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28388"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:40.741475Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-28389"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:43.709896Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31789"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:46.684664Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31911"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:41.974398Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-31912"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:44.648379Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32762",
+        "aliases": [
+          "GHSA-qfgr-crr9-7r49"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:57.341509Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33169",
+        "aliases": [
+          "GHSA-cg4j-q9v8-6v38"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:45.345003Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33170",
+        "aliases": [
+          "GHSA-89vf-4333-qx8v"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:48.407906Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33176",
+        "aliases": [
+          "GHSA-2j26-frm8-cmj9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:25:51.479069Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33637",
+        "aliases": [
+          "GHSA-5rv5-xj5j-3484"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:55.701372Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34230",
+        "aliases": [
+          "GHSA-v569-hp3g-36wr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:00.628446Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34743"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:04.054258Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34763",
+        "aliases": [
+          "GHSA-7mqq-6cf9-v2qp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:07.048007Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34785",
+        "aliases": [
+          "GHSA-h2jq-g4cq-5ppq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:10.285372Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34786",
+        "aliases": [
+          "GHSA-q4qf-9j86-f5mh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:13.778804Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34826",
+        "aliases": [
+          "GHSA-x8cg-fq8g-mxfx"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:17.213482Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34827",
+        "aliases": [
+          "GHSA-v6x5-cg8r-vv6x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:20.166604Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34829",
+        "aliases": [
+          "GHSA-8vqr-qjwx-82mw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:23.144334Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34830",
+        "aliases": [
+          "GHSA-qv7j-4883-hwh7"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:26.325898Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34831",
+        "aliases": [
+          "GHSA-q2ww-5357-x388"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:29.177279Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34835",
+        "aliases": [
+          "GHSA-g2pf-xv49-m2h5"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:31.892967Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35189"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:30:17.752741Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35191"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. To be fixed or analyzed in the next release.",
+      "timestamp": "2026-11-18T16:30:20.792027Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35611",
+        "aliases": [
+          "GHSA-h27x-rffw-24p4"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:26:49.84286Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-4105",
+        "aliases": [
+          "GHSA-vx8h-4prv-g744"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:25:42.198583Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:26:58.979164Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3A9dfa5a6aba93b57dbdc7ab63ede33dac1fc622d44f312f8216d58667f6d23c4d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:01.840337Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A961fc168f45912af76404ccd43f8a02aa08136c12f1dc557b3d00a1e511b291b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:04.502726Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A75956613243c7ff304576e44b16353d58fa7c61712d107b08e5a88d4b18b511c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:07.540651Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:10.536286Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/es-gateway@sha256%3A82783e0bdef9cd8559b039a061aab627c505b31eadb1c32976a6b0fa9e3b6226"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:13.42059Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:16.147176Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ingress-collector@sha256%3Ae9158618509d42f972cacb5e719f9ea93f28c3d1492a201445961f20eb410966"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:19.315651Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:22.249133Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/l7-admission-controller@sha256%3Ab0fdb94def114541a30231ccc18f0096ef83432024f47751062ef10b905770dd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:25.04988Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:28.085466Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:31.317921Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:34.194997Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:37.249675Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/typha@sha256%3A2f4aeec49fea86011869185d4106d1c082c5f8b27d9e4726583ace65efd2f78e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:40.080768Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41184",
+        "aliases": [
+          "GHSA-9p7w-w5q6-mxj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks@sha256%3Aae0a8ceceb39e2788b4dfda8483ccae059b15072cf1297cf22c7903c790f593b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:42.950458Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/apiserver@sha256%3Af239b700531f2b21ce3ff2961ade0ed420e067175dc93584b2fd41974f5e1337"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:46.167254Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3A9dfa5a6aba93b57dbdc7ab63ede33dac1fc622d44f312f8216d58667f6d23c4d"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:49.065679Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/dikastes@sha256%3A961fc168f45912af76404ccd43f8a02aa08136c12f1dc557b3d00a1e511b291b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:51.369647Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/egress-gateway@sha256%3A75956613243c7ff304576e44b16353d58fa7c61712d107b08e5a88d4b18b511c"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:54.573157Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:27:57.31687Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/es-gateway@sha256%3A82783e0bdef9cd8559b039a061aab627c505b31eadb1c32976a6b0fa9e3b6226"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:00.016149Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:02.978287Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/ingress-collector@sha256%3Ae9158618509d42f972cacb5e719f9ea93f28c3d1492a201445961f20eb410966"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:05.9378Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/kube-controllers@sha256%3A10920042df722e339d8de8ed918d13fa3eb93b9b7c039200bbc2d24ed0f4b669"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:08.904238Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/l7-admission-controller@sha256%3Ab0fdb94def114541a30231ccc18f0096ef83432024f47751062ef10b905770dd"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:11.889744Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/license-agent@sha256%3A93ed74363ec92cbe91b87c4916862425a754c69215ce69551bc8a2dfd0616f4e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:14.858156Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:17.822168Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/packetcapture@sha256%3A9c67d15ca8c73fe34ec7426b99f31b79b2db510be1ed5a5cfb01a5aea9ab613b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:20.787739Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/prometheus-service@sha256%3Aafbaa2c86ab870e9170ba462f2b33cd05df85da055b03e06ea1c93d10985ca84"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:23.828089Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/typha@sha256%3A2f4aeec49fea86011869185d4106d1c082c5f8b27d9e4726583ace65efd2f78e"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:26.66994Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41185",
+        "aliases": [
+          "GHSA-m67g-87rx-v42c"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/webhooks@sha256%3Aae0a8ceceb39e2788b4dfda8483ccae059b15072cf1297cf22c7903c790f593b"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Fixed in Calico Enterprise v3.22.3. Calico Enterprise v3.23.3 is not affected.",
+      "timestamp": "2026-11-18T16:28:29.488171Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42250"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:28:32.46311Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42765"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:28:35.328521Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42772"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:23.564099Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44024",
+        "aliases": [
+          "GHSA-44hj-4m45-frj3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:52.597854Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44025",
+        "aliases": [
+          "GHSA-pr7j-96cj-549h"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:55.618691Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44160",
+        "aliases": [
+          "GHSA-j9cw-hwqf-85w7"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:58.394235Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-44161",
+        "aliases": [
+          "GHSA-72f5-rr8c-r6gr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:29:01.185624Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47843"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:29:15.946416Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47845"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:29:27.678081Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47848"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:29:18.841786Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47857"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:29:21.759009Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47863"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:29:24.723681Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47874"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:29:30.380366Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-49844",
+        "aliases": [
+          "GHSA-qv9r-c865-cp47"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:29:04.028129Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:31:38.191034Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53615"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:31:41.134271Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54297",
+        "aliases": [
+          "GHSA-98m9-hrrm-r99r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:38.214843Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54522",
+        "aliases": [
+          "GHSA-4mrv-5p47-p938"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:29:10.01727Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54872"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:26.528548Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54873"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:29.535407Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54875"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:32.296053Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54904",
+        "aliases": [
+          "GHSA-h8w8-99g7-qmvj"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:41.192343Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54905",
+        "aliases": [
+          "GHSA-wv3x-4vxv-whpp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:44.111187Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54906",
+        "aliases": [
+          "GHSA-6wx8-w4f5-wwcr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:28:47.037192Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-56391"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:07.122214Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5958"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:26:52.77089Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6244"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:47.481507Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-63435",
+        "aliases": [
+          "GHSA-mvxr-6m87-mv2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/fluentd@sha256%3A686f1e7e4a90c0cee0f215ee6ef8880dad37c96cf4a33aa9e0ae565b411394db"
+        }
+      ],
+      "status": "not_affected",
+      "impact_statement": "False positive. Detected from an unused Gemfile.lock in fluent-plugin-splunk-hec. The installed gem versions are not affected.",
+      "timestamp": "2026-11-18T16:29:33.208083Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:50.326905Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71885"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:05.533136Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71886"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:08.26577Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71887"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:11.271617Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71888"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:14.249592Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71889"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:17.268386Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71890"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:20.242956Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71891"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:23.322856Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71892"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:26.208598Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-72897"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:35.321218Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75804"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:38.344877Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75805"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:41.469251Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75806"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:44.429093Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77420",
+        "aliases": [
+          "GHSA-5q95-hrpc-m3w3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available in upstream Elasticsearch at the time of release, and it will be fixed when the fix is available.",
+      "timestamp": "2026-11-18T16:30:08.795856Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77696"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:47.598263Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84243"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:37:47.663463Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84784"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:50.700521Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-85515"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:29.170263Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-8674"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:56.271627Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-86805"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:59.09331Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-89092"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:29:53.189716Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-91403"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:54.476359Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-95619"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:02.146503Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-95818"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:05.183739Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-97399"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3Ad9ae4156260333cb9429529c3a7972157afdb61a5016faf1af45f21a41647e66"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-18T16:30:14.826994Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-97873"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/elasticsearch@sha256%3Adf86a1ecea39fc10b6a66f8985a98b240a9a9f858aaaec84ce20b142b2a0bb71"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. Fixed in v3.23.4",
+      "timestamp": "2026-11-18T16:31:32.175528Z"
+    }
+  ],
+  "timestamp": "2026-11-18T16:37:53Z"
+}
