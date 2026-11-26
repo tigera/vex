@@ -1,0 +1,216 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-ce60ef00473f712c60e867ed46cbf66457bb163c9bdd05f995f44a026e037478",
+  "author": "Tigera security team",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-install-cni@sha256%3Af4ac6672f0915393f46dbf759de59ccef72bbd85ff7e2e1edaa529e53159848a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:41.902961Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-pilot@sha256%3A5e02aeefed3ca33a3c2f44f458d8cc4030f66299faef8d5a3ed9bc8bc2ddef2d"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:53.662098Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-proxyv2@sha256%3A82b38059e8b23e9ddf8bbb51fac52eb15562d79239e8d2dae1b30cc8bec780ba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:43:08.528343Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-116587",
+        "aliases": [
+          "GHSA-mgcc-cww5-fp2q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Aced477c58e3d5d9b037d9e366f82c2ee53b918b96ab6fa4c26fcf14b02b3aa01"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:44:14.631807Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53613"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A3487797085dbb163652640249d5e9e8d1fe85f3d87e53e839586741684a21da0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-09T19:43:46.480272Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-53615"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A3487797085dbb163652640249d5e9e8d1fe85f3d87e53e839586741684a21da0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-09T19:43:48.993883Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6554"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node@sha256%3A3487797085dbb163652640249d5e9e8d1fe85f3d87e53e839586741684a21da0"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "No fix is available at the time of release and will be fixed in a future release.",
+      "timestamp": "2026-11-09T19:43:43.809715Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3Aa7fb275dccb6638c6dc7c16466c808a2839434f29f7e86f999a5a715e6da4809"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:21.174171Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-install-cni@sha256%3Af4ac6672f0915393f46dbf759de59ccef72bbd85ff7e2e1edaa529e53159848a"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:39.642026Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-pilot@sha256%3A5e02aeefed3ca33a3c2f44f458d8cc4030f66299faef8d5a3ed9bc8bc2ddef2d"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:55.871096Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/istio-proxyv2@sha256%3A82b38059e8b23e9ddf8bbb51fac52eb15562d79239e8d2dae1b30cc8bec780ba"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:43:11.33131Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/node-driver-registrar@sha256%3A7d63b2887b384cc94369f662a83d867a3e5e02f6404e6b6d411626ea6fe6b4c6"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:44:00.709905Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-gateway@sha256%3Aced477c58e3d5d9b037d9e366f82c2ee53b918b96ab6fa4c26fcf14b02b3aa01"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:44:17.143362Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78661"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/envoy-ratelimit@sha256%3Af21ace31b35236cd12f38a9dcf72a93c0c45459a276fe70be89346bd0e91359f"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:44:22.526259Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-78669"
+      },
+      "products": [
+        {
+          "@id": "pkg:oci/cni@sha256%3Aa7fb275dccb6638c6dc7c16466c808a2839434f29f7e86f999a5a715e6da4809"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Fix deferred. The CVE will be fixed in the next release.",
+      "timestamp": "2026-11-09T19:42:23.585048Z"
+    }
+  ],
+  "timestamp": "2026-11-09T19:44:22Z"
+}
